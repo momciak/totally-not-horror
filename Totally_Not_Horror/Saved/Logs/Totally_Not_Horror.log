@@ -1797,3 +1797,144 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2024.02.20-22.25.42:502][923]LogContentBrowser: Renaming the item being created (Deferred Item: NewFolder).
 [2024.02.20-22.25.50:431][310]LogContentBrowser: Attempting asset rename: NewFolder -> Blueprints
 [2024.02.20-22.25.50:444][310]LogContentBrowser: End creating deferred item NewFolder
+[2024.02.20-22.32.10:431][912]LogSlate: Window 'Pick Parent Class' being destroyed
+[2024.02.20-22.32.10:454][912]LogContentBrowser: Deferred new asset file creation: NewBlueprint
+[2024.02.20-22.32.10:458][912]LogContentBrowser: Creating deferred item: NewBlueprint
+[2024.02.20-22.32.10:498][914]LogContentBrowser: Renaming the item being created (Deferred Item: NewBlueprint).
+[2024.02.20-22.32.15:797][180]LogContentBrowser: Attempting asset rename: NewBlueprint -> BP_Drawer
+[2024.02.20-22.32.15:828][180]LogContentBrowser: End creating deferred item NewBlueprint
+[2024.02.20-22.32.33:451][391]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/BP_Drawer.BP_Drawer
+[2024.02.20-22.32.33:452][391]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.02.20-22.32.33:452][391]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.02.20-22.32.34:071][391]LogViewport: Scene viewport resized to 846x634, mode Windowed.
+[2024.02.20-22.33.13:259][195]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.02.20-22.33.17:510][369]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.02.20-22.33.19:902][454]LogUObjectHash: Compacting FUObjectHashTables data took   1.70ms
+[2024.02.20-22.33.19:904][454]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/ThirdPerson/Maps/ThirdPersonMap' took 0.048
+[2024.02.20-22.33.19:906][454]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Blueprints/BP_Drawer] ([2] browsable assets)...
+[2024.02.20-22.33.19:919][454]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/BP_Drawer.BP_Drawer]
+[2024.02.20-22.33.19:919][454]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/BP_Drawer]
+[2024.02.20-22.33.19:922][454]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Blueprints/BP_Drawer_Auto6
+[2024.02.20-22.33.19:922][454]LogSavePackage: Moving 'C:/Users/drcza/Documents/GitHub/totally-not-horror/Totally_Not_Horror/Saved/BP_Drawer_Auto669FE43E0497A97D450BC239F13578E60.tmp' to 'C:/Users/drcza/Documents/GitHub/totally-not-horror/Totally_Not_Horror/Saved/Autosaves/Game/Blueprints/BP_Drawer_Auto6.uasset'
+[2024.02.20-22.33.19:923][454]LogFileHelpers: Auto-saving content packages took 0.018
+[2024.02.20-22.34.59:793][137]Cmd: MODE GRID=0
+[2024.02.20-22.35.00:790][172]Cmd: MODE GRID=1
+[2024.02.20-22.35.09:719][527]Cmd: MODE GRID=0
+[2024.02.20-22.35.22:149][  8]BlueprintLog: New page: Compile BP_Drawer
+[2024.02.20-22.35.22:226][  8]LogUObjectHash: Compacting FUObjectHashTables data took   1.43ms
+[2024.02.20-22.35.44:709][425]BlueprintLog: New page: Compile BP_Drawer
+[2024.02.20-22.35.44:782][425]LogUObjectHash: Compacting FUObjectHashTables data took   1.43ms
+[2024.02.20-22.43.20:460][908]LogUObjectHash: Compacting FUObjectHashTables data took   3.23ms
+[2024.02.20-22.43.20:464][908]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/ThirdPerson/Maps/ThirdPersonMap' took 0.131
+[2024.02.20-22.43.20:465][908]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Blueprints/BP_Drawer] ([2] browsable assets)...
+[2024.02.20-22.43.20:577][908]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/BP_Drawer.BP_Drawer]
+[2024.02.20-22.43.20:588][908]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/BP_Drawer]
+[2024.02.20-22.43.20:604][908]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Blueprints/BP_Drawer_Auto7
+[2024.02.20-22.43.20:604][908]LogSavePackage: Moving 'C:/Users/drcza/Documents/GitHub/totally-not-horror/Totally_Not_Horror/Saved/BP_Drawer_Auto7FC8D70C44AFE1791C392D9905F4CCB66.tmp' to 'C:/Users/drcza/Documents/GitHub/totally-not-horror/Totally_Not_Horror/Saved/Autosaves/Game/Blueprints/BP_Drawer_Auto7.uasset'
+[2024.02.20-22.43.20:607][908]LogFileHelpers: Auto-saving content packages took 0.142
+[2024.02.20-22.49.13:233][455]LogEditorTransaction: Undo Remove Components
+[2024.02.20-22.53.20:871][692]LogUObjectHash: Compacting FUObjectHashTables data took   1.97ms
+[2024.02.20-22.53.20:873][692]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/ThirdPerson/Maps/ThirdPersonMap' took 0.049
+[2024.02.20-22.53.20:874][692]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Blueprints/BP_Drawer] ([2] browsable assets)...
+[2024.02.20-22.53.20:965][692]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/BP_Drawer.BP_Drawer]
+[2024.02.20-22.53.20:965][692]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/BP_Drawer]
+[2024.02.20-22.53.20:969][692]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Blueprints/BP_Drawer_Auto8
+[2024.02.20-22.53.20:969][692]LogSavePackage: Moving 'C:/Users/drcza/Documents/GitHub/totally-not-horror/Totally_Not_Horror/Saved/BP_Drawer_Auto85E4294A84093BB28D3266AA117811A8E.tmp' to 'C:/Users/drcza/Documents/GitHub/totally-not-horror/Totally_Not_Horror/Saved/Autosaves/Game/Blueprints/BP_Drawer_Auto8.uasset'
+[2024.02.20-22.53.21:008][692]LogFileHelpers: Auto-saving content packages took 0.135
+[2024.02.20-23.05.39:525][749]LogUObjectHash: Compacting FUObjectHashTables data took   3.46ms
+[2024.02.20-23.05.39:529][749]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/ThirdPerson/Maps/ThirdPersonMap' took 0.054
+[2024.02.20-23.05.39:529][749]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Blueprints/BP_Drawer] ([2] browsable assets)...
+[2024.02.20-23.05.39:548][749]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/BP_Drawer.BP_Drawer]
+[2024.02.20-23.05.39:548][749]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/BP_Drawer]
+[2024.02.20-23.05.39:555][749]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Blueprints/BP_Drawer_Auto9
+[2024.02.20-23.05.39:555][749]LogSavePackage: Moving 'C:/Users/drcza/Documents/GitHub/totally-not-horror/Totally_Not_Horror/Saved/BP_Drawer_Auto97BA8035B42ECD910741E3B9B850758C4.tmp' to 'C:/Users/drcza/Documents/GitHub/totally-not-horror/Totally_Not_Horror/Saved/Autosaves/Game/Blueprints/BP_Drawer_Auto9.uasset'
+[2024.02.20-23.05.39:557][749]LogFileHelpers: Auto-saving content packages took 0.028
+[2024.02.20-23.09.08:658][136]BlueprintLog: New page: Compile BP_Drawer
+[2024.02.20-23.09.08:870][136]LogUObjectHash: Compacting FUObjectHashTables data took   1.69ms
+[2024.02.20-23.09.14:287][377]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/BP_Drawer.BP_Drawer_C
+[2024.02.20-23.09.14:287][377]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/BP_Drawer.BP_Drawer_C
+[2024.02.20-23.09.14:297][377]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/BP_Drawer.BP_Drawer as actor: BP_Drawer_C /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.BP_Drawer_C_0
+[2024.02.20-23.09.14:301][377]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/BP_Drawer.BP_Drawer as actor: BP_Drawer_C /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.BP_Drawer_C_0
+[2024.02.20-23.09.14:314][378]LogActorFactory: Loading ActorFactory Class /Script/Engine.LevelInstance
+[2024.02.20-23.09.16:685][475]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/BP_Drawer.BP_Drawer_C
+[2024.02.20-23.09.16:685][475]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/BP_Drawer.BP_Drawer_C
+[2024.02.20-23.09.16:701][475]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/BP_Drawer.BP_Drawer as actor: BP_Drawer_C /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.BP_Drawer_C_UAID_3C7C3F5AFC9841DB01_1631418863
+[2024.02.20-23.09.16:706][475]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/BP_Drawer.BP_Drawer as actor: BP_Drawer_C /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.BP_Drawer_C_UAID_3C7C3F5AFC9841DB01_1631418863
+[2024.02.20-23.09.18:422][555]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.02.20-23.09.18:430][555]LogContentBundle: [ThirdPersonMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2024.02.20-23.09.18:440][555]LogWorldPartition: Display: GenerateStreaming started...
+[2024.02.20-23.09.18:440][555]LogWorldPartition: Display: GetPartitionedActors started...
+[2024.02.20-23.09.18:440][555]LogWorldPartition: Display: GetPartitionedActors took 7 us (total: 1 ms)
+[2024.02.20-23.09.18:440][555]LogWorldPartition: Display: GenerateStreaming took 146 us (total: 4 ms)
+[2024.02.20-23.09.18:442][555]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.02.20-23.09.18:442][555]PIE: New page: PIE session: ThirdPersonMap (21 Feb 2024, 01:09:18)
+[2024.02.20-23.09.18:442][555]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2024.02.20-23.09.18:449][555]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005862s)
+[2024.02.20-23.09.18:449][555]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap to /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap (0.005916s)
+[2024.02.20-23.09.18:449][555]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.02.20-23.09.18:449][555]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.02.20-23.09.18:449][555]LogAIModule: Creating AISystem for world ThirdPersonMap
+[2024.02.20-23.09.18:450][555]LogWorldPartition: ULevel::OnLevelLoaded(ThirdPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, bIsValidLevelInstance=0, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2024.02.20-23.09.18:451][555]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.02.20-23.09.18:451][555]LogWorldPartition: UWorldPartition::Initialize(Asset=ThirdPersonMap, IsEditor=0, bPIEWorldTravel=0 IsGame=0, IsCooking=0)
+[2024.02.20-23.09.18:453][555]LogContentBundle: [ThirdPersonMap(Standalone)] Creating new contrainer.
+[2024.02.20-23.09.18:453][555]LogWorldPartition: Display: WorldPartition initialize took 2 ms (total: 541 ms)
+[2024.02.20-23.09.18:453][555]LogPlayLevel: PIE: World Init took: (0.004461s)
+[2024.02.20-23.09.18:494][555]LogUObjectHash: Compacting FUObjectHashTables data took   1.77ms
+[2024.02.20-23.09.18:497][555]LogAudio: Display: Creating Audio Device:                 Id: 9, Scope: Unique, Realtime: True
+[2024.02.20-23.09.18:497][555]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.02.20-23.09.18:497][555]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.02.20-23.09.18:497][555]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.02.20-23.09.18:497][555]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.02.20-23.09.18:497][555]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.02.20-23.09.18:497][555]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2024.02.20-23.09.18:497][555]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.02.20-23.09.18:497][555]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.02.20-23.09.18:497][555]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.02.20-23.09.18:497][555]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.02.20-23.09.18:497][555]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.02.20-23.09.18:499][555]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.02.20-23.09.18:732][555]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Realtek(R) Audio)
+[2024.02.20-23.09.18:732][555]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.02.20-23.09.18:733][555]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.02.20-23.09.18:733][555]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.02.20-23.09.18:735][555]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=9
+[2024.02.20-23.09.18:735][555]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=9
+[2024.02.20-23.09.18:736][555]LogInit: FAudioDevice initialized with ID 9.
+[2024.02.20-23.09.18:736][555]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=9
+[2024.02.20-23.09.18:736][555]LogAudio: Display: Audio Device (ID: 9) registered with world 'ThirdPersonMap'.
+[2024.02.20-23.09.18:736][555]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=9
+[2024.02.20-23.09.18:736][555]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 9
+[2024.02.20-23.09.18:738][555]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2024.02.20-23.09.18:740][555]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap up for play (max tick rate 60) at 2024.02.21-00.09.18
+[2024.02.20-23.09.18:741][555]LogWorld: Bringing up level for play took: 0.001920
+[2024.02.20-23.09.18:743][555]LogOnline: OSS: Created online subsystem instance for: :Context_17
+[2024.02.20-23.09.18:755][555]PIE: Server logged in
+[2024.02.20-23.09.18:757][555]PIE: Play in editor total start time 0.326 seconds.
+[2024.02.20-23.09.39:149][291]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.20-23.09.39:149][291]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2024.02.20-23.09.39:157][291]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2024.02.20-23.09.39:157][291]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.02.20-23.09.39:157][291]LogContentBundle: [ThirdPersonMap(Standalone)] Deleting container.
+[2024.02.20-23.09.39:190][291]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.02.20-23.09.39:199][291]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.02.20-23.09.39:293][291]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.02.20-23.09.39:294][291]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 9
+[2024.02.20-23.09.39:294][291]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=9
+[2024.02.20-23.09.39:298][291]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=9
+[2024.02.20-23.09.39:308][291]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.20-23.09.39:313][291]LogUObjectHash: Compacting FUObjectHashTables data took   1.62ms
+[2024.02.20-23.09.39:358][292]LogPlayLevel: Display: Destroying online subsystem :Context_17
+[2024.02.20-23.09.41:524][347]LogUObjectHash: Compacting FUObjectHashTables data took   1.53ms
+[2024.02.20-23.09.41:567][347]LogUObjectHash: Compacting FUObjectHashTables data took   0.58ms
+[2024.02.20-23.09.43:357][347]LogSlate: Window 'Save Content' being destroyed
+[2024.02.20-23.09.43:396][347]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.02.20-23.09.43:523][347]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Drawer" FILE="C:/Users/drcza/Documents/GitHub/totally-not-horror/Totally_Not_Horror/Content/Blueprints/BP_Drawer.uasset" SILENT=true
+[2024.02.20-23.09.43:530][347]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_Drawer
+[2024.02.20-23.09.43:530][347]LogSavePackage: Moving 'C:/Users/drcza/Documents/GitHub/totally-not-horror/Totally_Not_Horror/Saved/BP_Drawer952FB5FB49BA3C20E64470AC9FA087B9.tmp' to 'C:/Users/drcza/Documents/GitHub/totally-not-horror/Totally_Not_Horror/Content/Blueprints/BP_Drawer.uasset'
+[2024.02.20-23.09.43:540][347]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/5/HO/1MIMRW1T6U5NKNB54GNVUY
+[2024.02.20-23.09.43:540][347]LogSavePackage: Moving 'C:/Users/drcza/Documents/GitHub/totally-not-horror/Totally_Not_Horror/Saved/1MIMRW1T6U5NKNB54GNVUYA62FA4784866D81E0BA04988CAB25A98.tmp' to 'C:/Users/drcza/Documents/GitHub/totally-not-horror/Totally_Not_Horror/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/5/HO/1MIMRW1T6U5NKNB54GNVUY.uasset'
+[2024.02.20-23.09.43:558][347]LogFileHelpers: InternalPromptForCheckoutAndSave took 162 ms (total: 912 ms)
+[2024.02.20-23.09.43:571][347]AssetCheck: New page: Asset Save: multiple assets
+[2024.02.20-23.09.43:572][347]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/BP_Drawer.BP_Drawer
+[2024.02.20-23.09.43:572][347]LogContentValidation: Display: Validating /Game/Blueprints/BP_Drawer.BP_Drawer_C /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.BP_Drawer_C_UAID_3C7C3F5AFC9841DB01_1631418863
