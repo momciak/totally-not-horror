@@ -2940,3 +2940,158 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2024.02.21-01.13.36:436][207]AssetCheck: New page: Asset Save: multiple assets
 [2024.02.21-01.13.36:436][207]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/BP_Drawer.BP_Drawer
 [2024.02.21-01.13.36:436][207]LogContentValidation: Display: Validating /Game/Blueprints/BP_Drawer.BP_Drawer_C /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.BP_Drawer_C_UAID_3C7C3F5AFC9841DB01_1631418863
+[2024.02.21-01.14.37:781][429]LogAudioMixer: Warning: AudioMixerPlatformInterface Timeout [5001ms] waiting for h/w. InstanceID=1
+[2024.02.21-19.43.45:414][429]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=1292
+[2024.02.21-19.43.47:436][435]LogAudioMixer: Display: Successful Swap new Device is (NumChannels=2, SampleRate=48000, DeviceID={0.0.0.00000000}.{b53d75fa-0690-48c1-a250-6b36d56eff49}, Name=Speakers (Realtek(R) Audio)), Reason=AudioMixerPlatformInterface. Timeout waiting for h/w., InstanceID=1, DurationMS=1786.73
+[2024.02.21-19.43.47:436][435]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2024.02.21-19.43.47:439][435]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2024.02.21-19.44.17:856][526]LogAudioMixer: Warning: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=Headphones (Realtek(R) Audio), InstanceID=1
+[2024.02.21-19.44.18:018][526]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=1292
+[2024.02.21-19.44.19:705][531]LogAudioMixer: Display: Successful Swap new Device is (NumChannels=2, SampleRate=48000, DeviceID={0.0.0.00000000}.{e9a64eb5-223b-49f1-aa3e-15c0d8208106}, Name=Headphones (Realtek(R) Audio)), Reason=FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged, InstanceID=1, DurationMS=1468.12
+[2024.02.21-19.44.19:705][531]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2024.02.21-19.44.19:713][531]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2024.02.21-20.50.38:052][203]LogAudioMixer: Warning: AudioMixerPlatformInterface Timeout [1756610ms] waiting for h/w. InstanceID=1
+[2024.02.21-20.50.39:465][203]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=1292
+[2024.02.21-20.50.42:537][211]LogAudioMixer: Display: Successful Swap new Device is (NumChannels=2, SampleRate=48000, DeviceID={0.0.0.00000000}.{e9a64eb5-223b-49f1-aa3e-15c0d8208106}, Name=Headphones (Realtek(R) Audio)), Reason=AudioMixerPlatformInterface. Timeout waiting for h/w., InstanceID=1, DurationMS=3039.18
+[2024.02.21-20.50.42:537][211]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2024.02.21-20.50.42:543][211]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2024.02.21-20.51.12:144][395]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.02.21-20.51.12:167][395]LogContentBundle: [ThirdPersonMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2024.02.21-20.51.12:173][395]LogWorldPartition: Display: GenerateStreaming started...
+[2024.02.21-20.51.12:173][395]LogWorldPartition: Display: GetPartitionedActors started...
+[2024.02.21-20.51.12:173][395]LogWorldPartition: Display: GetPartitionedActors took 59 us (total: 1 ms)
+[2024.02.21-20.51.12:174][395]LogWorldPartition: Display: GenerateStreaming took 1 ms (total: 11 ms)
+[2024.02.21-20.51.12:178][395]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.02.21-20.51.12:179][395]PIE: New page: PIE session: ThirdPersonMap (21 Feb 2024, 22:51:12)
+[2024.02.21-20.51.12:185][395]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2024.02.21-20.51.12:225][395]LogPlayLevel: PIE: StaticDuplicateObject took: (0.038725s)
+[2024.02.21-20.51.12:225][395]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap to /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap (0.040489s)
+[2024.02.21-20.51.12:226][395]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.02.21-20.51.12:228][395]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.02.21-20.51.12:229][395]LogAIModule: Creating AISystem for world ThirdPersonMap
+[2024.02.21-20.51.12:232][395]LogWorldPartition: ULevel::OnLevelLoaded(ThirdPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, bIsValidLevelInstance=0, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2024.02.21-20.51.12:232][395]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.02.21-20.51.12:232][395]LogWorldPartition: UWorldPartition::Initialize(Asset=ThirdPersonMap, IsEditor=0, bPIEWorldTravel=0 IsGame=0, IsCooking=0)
+[2024.02.21-20.51.12:234][395]LogContentBundle: [ThirdPersonMap(Standalone)] Creating new contrainer.
+[2024.02.21-20.51.12:234][395]LogWorldPartition: Display: WorldPartition initialize took 2 ms (total: 580 ms)
+[2024.02.21-20.51.12:234][395]LogPlayLevel: PIE: World Init took: (0.009016s)
+[2024.02.21-20.51.12:551][395]LogUObjectHash: Compacting FUObjectHashTables data took   7.24ms
+[2024.02.21-20.51.12:562][395]LogAudio: Display: Creating Audio Device:                 Id: 22, Scope: Unique, Realtime: True
+[2024.02.21-20.51.12:563][395]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.02.21-20.51.12:563][395]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.02.21-20.51.12:563][395]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.02.21-20.51.12:563][395]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.02.21-20.51.12:563][395]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.02.21-20.51.12:563][395]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2024.02.21-20.51.12:563][395]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.02.21-20.51.12:563][395]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.02.21-20.51.12:565][395]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.02.21-20.51.12:565][395]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.02.21-20.51.12:565][395]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.02.21-20.51.12:568][395]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.02.21-20.51.12:811][395]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Realtek(R) Audio)
+[2024.02.21-20.51.12:815][395]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.02.21-20.51.12:815][395]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.02.21-20.51.12:816][395]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.02.21-20.51.12:820][395]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=22
+[2024.02.21-20.51.12:820][395]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=22
+[2024.02.21-20.51.12:822][395]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=22
+[2024.02.21-20.51.12:822][395]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=22
+[2024.02.21-20.51.12:822][395]LogInit: FAudioDevice initialized with ID 22.
+[2024.02.21-20.51.12:822][395]LogAudio: Display: Audio Device (ID: 22) registered with world 'ThirdPersonMap'.
+[2024.02.21-20.51.12:823][395]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 22
+[2024.02.21-20.51.12:834][395]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2024.02.21-20.51.12:840][395]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap up for play (max tick rate 60) at 2024.02.21-21.51.12
+[2024.02.21-20.51.12:841][395]LogWorld: Bringing up level for play took: 0.006127
+[2024.02.21-20.51.12:846][395]LogOnline: OSS: Created online subsystem instance for: :Context_33
+[2024.02.21-20.51.12:861][395]PIE: Server logged in
+[2024.02.21-20.51.12:862][395]PIE: Play in editor total start time 0.696 seconds.
+[2024.02.21-20.51.43:761][754]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.21-20.51.43:761][754]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2024.02.21-20.51.43:761][754]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2024.02.21-20.51.43:762][754]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.02.21-20.51.43:762][754]LogContentBundle: [ThirdPersonMap(Standalone)] Deleting container.
+[2024.02.21-20.51.43:807][754]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.02.21-20.51.43:814][754]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.02.21-20.51.43:864][754]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.21-20.51.43:864][754]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 22
+[2024.02.21-20.51.43:864][754]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=22
+[2024.02.21-20.51.43:866][754]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=22
+[2024.02.21-20.51.43:877][754]LogUObjectHash: Compacting FUObjectHashTables data took   1.80ms
+[2024.02.21-20.51.44:032][755]LogPlayLevel: Display: Destroying online subsystem :Context_33
+[2024.02.21-21.10.55:220][362]LogDerivedDataCache: C:/Users/drcza/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.273 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 538 files in 923 folders with total size 16 MiB.
+[2024.02.21-22.10.55:023][158]LogDerivedDataCache: C:/Users/drcza/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.076 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 538 files in 923 folders with total size 16 MiB.
+[2024.02.21-22.51.46:180][971]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2024.02.21-22.51.46:192][971]LogContentBrowser: Creating deferred item: NewFolder
+[2024.02.21-22.51.46:211][972]LogContentBrowser: Renaming the item being created (Deferred Item: NewFolder).
+[2024.02.21-22.51.49:824][125]LogContentBrowser: Attempting asset rename: NewFolder -> Audio
+[2024.02.21-22.51.49:835][125]LogContentBrowser: End creating deferred item NewFolder
+[2024.02.21-22.54.05:411][744]LogAssetTools: Warning: Two factories registered with same priority : WmfFileMediaSourceFactory_2 and AvfFileMediaSourceFactory_1
+[2024.02.21-22.54.05:415][744]LogFactory: FactoryCreateFile: FileMediaSource with WmfFileMediaSourceFactory (0 0 C:\Users\drcza\Downloads\step_soundwav-14903.mp3)
+[2024.02.21-22.54.10:886][969]LogAssetEditorSubsystem: Opening Asset editor for FileMediaSource /Game/Audio/step_soundwav-14903.step_soundwav-14903
+[2024.02.21-22.54.14:331][ 77]LogShaderCompilers: Display: ================================================
+[2024.02.21-22.54.14:332][ 77]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2024.02.21-22.54.14:332][ 77]LogShaderCompilers: Display: Total job queries 5, among them cache hits 1 (20.00%)
+[2024.02.21-22.54.14:332][ 77]LogShaderCompilers: Display: Tracking 3 distinct input hashes that result in 2 distinct outputs (66.67%)
+[2024.02.21-22.54.14:332][ 77]LogShaderCompilers: Display: RAM used: 13.45 KiB of 819.20 MiB budget. Usage: 0.00%
+[2024.02.21-22.54.14:332][ 77]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2024.02.21-22.54.14:332][ 77]LogShaderCompilers: Display: Shaders Compiled: 3
+[2024.02.21-22.54.14:332][ 77]LogShaderCompilers: Display: Jobs assigned 4, completed 3 (75.00%)
+[2024.02.21-22.54.14:332][ 77]LogShaderCompilers: Display: Average time worker was idle: 88442.78 s
+[2024.02.21-22.54.14:332][ 77]LogShaderCompilers: Display: Time job spent in pending queue: average 0.08 s, longest 0.10 s
+[2024.02.21-22.54.14:332][ 77]LogShaderCompilers: Display: Job execution time: average 2.68 s, max 2.81 s
+[2024.02.21-22.54.14:332][ 77]LogShaderCompilers: Display: Job life time (pending + execution): average 2.75 s, max 2.87
+[2024.02.21-22.54.14:332][ 77]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 5.48 s
+[2024.02.21-22.54.14:332][ 77]LogShaderCompilers: Display: Jobs were issued in 4 batches (only local compilation was used), average 1.00 jobs/batch
+[2024.02.21-22.54.14:332][ 77]LogShaderCompilers: Display: Average processing rate: 0.55 jobs/sec
+[2024.02.21-22.54.14:332][ 77]LogShaderCompilers: Display: Total thread time: 2.647 s
+[2024.02.21-22.54.14:332][ 77]LogShaderCompilers: Display: Total thread preprocess time: 1.433 s
+[2024.02.21-22.54.14:332][ 77]LogShaderCompilers: Display: Percentage time preprocessing: 54.13%
+[2024.02.21-22.54.14:332][ 77]LogShaderCompilers: Display: Effective parallelization: 0.48 (times faster than compiling all shaders on one thread). Compare with number of workers: 4
+[2024.02.21-22.54.14:332][ 77]LogShaderCompilers: Display: Top 2 most expensive shader types by average time:
+[2024.02.21-22.54.14:332][ 77]LogShaderCompilers: Display:                                TSlateMaterialShaderPSDefault (compiled    1 times, average 0.95 sec, max 0.95 sec, min 0.95 sec)
+[2024.02.21-22.54.14:332][ 77]LogShaderCompilers: Display:                                  TSlateMaterialShaderVSfalse (compiled    2 times, average 0.85 sec, max 0.88 sec, min 0.82 sec)
+[2024.02.21-22.54.14:332][ 77]LogShaderCompilers: Display: Top 2 shader types by total compile time:
+[2024.02.21-22.54.14:332][ 77]LogShaderCompilers: Display:                                  TSlateMaterialShaderVSfalse - 64.27% of total time (compiled    2 times, average 0.85 sec, max 0.88 sec, min 0.82 sec)
+[2024.02.21-22.54.14:332][ 77]LogShaderCompilers: Display:                                TSlateMaterialShaderPSDefault - 35.73% of total time (compiled    1 times, average 0.95 sec, max 0.95 sec, min 0.95 sec)
+[2024.02.21-22.54.14:332][ 77]LogShaderCompilers: Display: ================================================
+[2024.02.21-22.54.33:686][816]LogUObjectHash: Compacting FUObjectHashTables data took   4.13ms
+[2024.02.21-22.54.34:971][816]LogSlate: Window 'Delete Assets' being destroyed
+[2024.02.21-22.54.35:043][816]LogUObjectHash: Compacting FUObjectHashTables data took   1.39ms
+[2024.02.21-22.54.35:096][816]LogUObjectHash: Compacting FUObjectHashTables data took   2.53ms
+[2024.02.21-22.54.35:146][816]LogUObjectHash: Compacting FUObjectHashTables data took   0.60ms
+[2024.02.21-22.56.19:374][165]LogAssetTools: Warning: Two factories registered with same priority : WmfFileMediaSourceFactory_3 and AvfFileMediaSourceFactory_2
+[2024.02.21-22.56.19:375][165]LogFactory: FactoryCreateFile: FileMediaSource with WmfFileMediaSourceFactory (0 0 C:\Users\drcza\Downloads\step_soundwav-14903.mp3)
+[2024.02.21-22.56.23:265][322]LogAssetEditorSubsystem: Opening Asset editor for FileMediaSource /Game/Audio/step_soundwav-14903.step_soundwav-14903
+[2024.02.21-22.57.07:424][ 46]LogUObjectHash: Compacting FUObjectHashTables data took   1.78ms
+[2024.02.21-22.57.08:552][ 46]LogSlate: Window 'Delete Assets' being destroyed
+[2024.02.21-22.57.08:630][ 46]LogUObjectHash: Compacting FUObjectHashTables data took   2.84ms
+[2024.02.21-22.57.08:680][ 46]LogUObjectHash: Compacting FUObjectHashTables data took   2.70ms
+[2024.02.21-22.57.08:728][ 46]LogUObjectHash: Compacting FUObjectHashTables data took   0.62ms
+[2024.02.21-22.57.14:302][ 89]LogFactory: FactoryCreateFile: SoundWave with SoundFactory (0 0 C:\Users\drcza\Downloads\step_soundwav-14903.wav)
+[2024.02.21-22.57.14:332][ 89]LogAudioDerivedData: Display: Building compressed audio format BINKA hash BINKA_1000_StreamCache_Ver5027_MEM_65536MaxChnkSize_00483224128 wave step_soundwav-14903...
+[2024.02.21-22.57.14:458][ 89]LogAudio: Display: Chunk size for SoundWave /Game/Audio/step_soundwav-14903.step_soundwav-14903: 262144
+[2024.02.21-22.57.14:460][ 89]LogAudioDerivedData: Display: Building compressed audio format BINKA hash BINKA_1000_StreamCache_Ver5027_MEM_65536MaxChnkSize_00483224128 wave step_soundwav-14903...
+[2024.02.21-22.57.14:541][ 94]LogAudio: Display: Chunk size for SoundWave /Game/Audio/step_soundwav-14903.step_soundwav-14903: 262144
+[2024.02.21-22.57.16:852][176]LogAssetEditorSubsystem: Opening Asset editor for SoundWave /Game/Audio/step_soundwav-14903.step_soundwav-14903
+[2024.02.21-23.05.14:262][127]LogUObjectHash: Compacting FUObjectHashTables data took   3.74ms
+[2024.02.21-23.05.14:267][127]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/ThirdPerson/Maps/ThirdPersonMap' took 0.071
+[2024.02.21-23.05.14:271][127]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Audio/step_soundwav-14903] ([1] browsable assets)...
+[2024.02.21-23.05.14:279][127]OBJ SavePackage:     Rendered thumbnail for [SoundWave /Game/Audio/step_soundwav-14903.step_soundwav-14903]
+[2024.02.21-23.05.14:279][127]OBJ SavePackage: Finished generating thumbnails for package [/Game/Audio/step_soundwav-14903]
+[2024.02.21-23.05.14:324][127]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Audio/step_soundwav-14903_Auto5
+[2024.02.21-23.05.14:324][127]LogSavePackage: Moving 'C:/Users/drcza/Documents/GitHub/totally-not-horror/Totally_Not_Horror/Saved/step_soundwav-14903_Auto5E4FBC51048CB969C88F72E808784D278.tmp' to 'C:/Users/drcza/Documents/GitHub/totally-not-horror/Totally_Not_Horror/Saved/Autosaves/Game/Audio/step_soundwav-14903_Auto5.uasset'
+[2024.02.21-23.05.14:325][127]LogFileHelpers: Auto-saving content packages took 0.058
+[2024.02.21-23.10.22:207][156]LogContentBrowser: Deferred new asset file creation: NewMetaSoundSource
+[2024.02.21-23.10.22:256][156]LogContentBrowser: Creating deferred item: NewMetaSoundSource
+[2024.02.21-23.10.22:287][157]LogContentBrowser: Renaming the item being created (Deferred Item: NewMetaSoundSource).
+[2024.02.21-23.10.27:750][390]LogContentBrowser: Attempting asset rename: NewMetaSoundSource -> MS_Footsteps
+[2024.02.21-23.10.27:839][390]LogContentBrowser: End creating deferred item NewMetaSoundSource
+[2024.02.21-23.10.55:263][532]LogDerivedDataCache: C:/Users/drcza/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.314 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 552 files in 951 folders with total size 18 MiB.
+[2024.02.21-23.11.05:371][650]LogWorld: UWorld::CleanupWorld for World_11, bSessionEnded=true, bCleanupResources=true
+[2024.02.21-23.11.05:371][650]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.02.21-23.11.07:494][708]LogWorld: UWorld::CleanupWorld for World_10, bSessionEnded=true, bCleanupResources=true
+[2024.02.21-23.11.07:495][708]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.02.21-23.11.07:602][708]LogViewport: Scene viewport resized to 846x645, mode Windowed.
+[2024.02.21-23.11.07:707][709]LogViewport: Scene viewport resized to 846x634, mode Windowed.
+[2024.02.21-23.11.12:758][892]LogAssetEditorSubsystem: Opening Asset editor for MetaSoundSource /Game/Audio/MS_Footsteps.MS_Footsteps
