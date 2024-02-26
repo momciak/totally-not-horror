@@ -1348,3 +1348,104 @@ The project directory:
 [2024.02.26-23.32.15:122][483]LogUObjectHash: Compacting FUObjectHashTables data took   1.88ms
 [2024.02.26-23.32.15:162][484]LogPlayLevel: Display: Destroying online subsystem :Context_12
 [2024.02.26-23.32.15:436][485]LogSlate: Took 0.001052 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2024.02.26-23.33.46:639][ 66]LogViewport: Scene viewport resized to 160x160, mode Windowed.
+[2024.02.26-23.33.51:889][228]BlueprintLog: New page: Compile ABP_AI
+[2024.02.26-23.33.51:983][228]LogUObjectHash: Compacting FUObjectHashTables data took   1.69ms
+[2024.02.26-23.33.57:448][380]BlueprintLog: New page: Compile ABP_AI
+[2024.02.26-23.33.57:540][380]LogUObjectHash: Compacting FUObjectHashTables data took   2.91ms
+[2024.02.26-23.35.19:014][906]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/AI/BP_AI.BP_AI
+[2024.02.26-23.35.19:019][906]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.02.26-23.35.19:019][906]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.02.26-23.35.19:571][907]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.02.26-23.35.19:623][908]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.02.26-23.35.24:765][113]LogWorld: UWorld::CleanupWorld for World_10, bSessionEnded=true, bCleanupResources=true
+[2024.02.26-23.35.24:765][113]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.02.26-23.35.24:789][113]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/AI/BP_AI.BP_AI
+[2024.02.26-23.35.24:789][113]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.02.26-23.35.24:789][113]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.02.26-23.35.31:540][337]LogSlateStyle: Warning: Missing Resource from 'CoreStyle' Style: 'Unable to find Color 'DefaultForeground'.'
+[2024.02.26-23.35.41:622][502]BlueprintLog: New page: Compile BP_AI
+[2024.02.26-23.35.41:734][502]LogUObjectHash: Compacting FUObjectHashTables data took   2.34ms
+[2024.02.26-23.35.44:876][617]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.02.26-23.35.44:884][617]LogContentBundle: [ThirdPersonMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2024.02.26-23.35.44:888][617]LogWorldPartition: Display: GenerateStreaming started...
+[2024.02.26-23.35.44:888][617]LogWorldPartition: Display: GetPartitionedActors started...
+[2024.02.26-23.35.44:888][617]LogWorldPartition: Display: GetPartitionedActors took 9 us (total: 701 us)
+[2024.02.26-23.35.44:889][617]LogWorldPartition: Display: GenerateStreaming took 199 us (total: 1 ms)
+[2024.02.26-23.35.44:889][617]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.02.26-23.35.44:889][617]PIE: New page: PIE session: ThirdPersonMap (27 Feb 2024, 01:35:44)
+[2024.02.26-23.35.44:890][617]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2024.02.26-23.35.44:899][617]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010100s)
+[2024.02.26-23.35.44:899][617]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap to /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap (0.010149s)
+[2024.02.26-23.35.44:899][617]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.02.26-23.35.44:899][617]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.02.26-23.35.44:901][617]LogAIModule: Creating AISystem for world ThirdPersonMap
+[2024.02.26-23.35.44:901][617]LogWorldPartition: ULevel::OnLevelLoaded(ThirdPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, bIsValidLevelInstance=0, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2024.02.26-23.35.44:901][617]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.02.26-23.35.44:901][617]LogWorldPartition: UWorldPartition::Initialize(Asset=ThirdPersonMap, IsEditor=0, bPIEWorldTravel=0 IsGame=0, IsCooking=0)
+[2024.02.26-23.35.44:903][617]LogContentBundle: [ThirdPersonMap(Standalone)] Creating new contrainer.
+[2024.02.26-23.35.44:903][617]LogWorldPartition: Display: WorldPartition initialize took 2 ms (total: 1.05 sec)
+[2024.02.26-23.35.44:905][617]LogPlayLevel: PIE: World Init took: (0.004913s)
+[2024.02.26-23.35.44:944][617]LogUObjectHash: Compacting FUObjectHashTables data took   1.78ms
+[2024.02.26-23.35.44:944][617]LogAudio: Display: Creating Audio Device:                 Id: 4, Scope: Unique, Realtime: True
+[2024.02.26-23.35.44:944][617]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.02.26-23.35.44:944][617]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.02.26-23.35.44:944][617]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.02.26-23.35.44:944][617]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.02.26-23.35.44:944][617]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.02.26-23.35.44:944][617]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2024.02.26-23.35.44:944][617]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.02.26-23.35.44:944][617]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.02.26-23.35.44:945][617]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.02.26-23.35.44:945][617]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.02.26-23.35.44:945][617]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.02.26-23.35.44:947][617]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.02.26-23.35.45:174][617]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Realtek(R) Audio)
+[2024.02.26-23.35.45:175][617]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.02.26-23.35.45:175][617]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.02.26-23.35.45:175][617]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.02.26-23.35.45:176][617]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=4
+[2024.02.26-23.35.45:176][617]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=4
+[2024.02.26-23.35.45:179][617]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=4
+[2024.02.26-23.35.45:179][617]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=4
+[2024.02.26-23.35.45:179][617]LogInit: FAudioDevice initialized with ID 4.
+[2024.02.26-23.35.45:179][617]LogAudio: Display: Audio Device (ID: 4) registered with world 'ThirdPersonMap'.
+[2024.02.26-23.35.45:179][617]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 4
+[2024.02.26-23.35.45:182][617]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2024.02.26-23.35.45:185][617]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap up for play (max tick rate 60) at 2024.02.27-00.35.45
+[2024.02.26-23.35.45:186][617]LogWorld: Bringing up level for play took: 0.003942
+[2024.02.26-23.35.45:188][617]LogOnline: OSS: Created online subsystem instance for: :Context_17
+[2024.02.26-23.35.45:193][617]PIE: Server logged in
+[2024.02.26-23.35.45:193][617]PIE: Play in editor total start time 0.309 seconds.
+[2024.02.26-23.36.28:255][299]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.26-23.36.28:255][299]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2024.02.26-23.36.28:255][299]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2024.02.26-23.36.28:256][299]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.02.26-23.36.28:257][299]LogContentBundle: [ThirdPersonMap(Standalone)] Deleting container.
+[2024.02.26-23.36.28:270][299]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.02.26-23.36.28:278][299]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.02.26-23.36.28:337][299]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.02.26-23.36.28:337][299]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 4
+[2024.02.26-23.36.28:337][299]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=4
+[2024.02.26-23.36.28:340][299]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=4
+[2024.02.26-23.36.28:363][299]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.26-23.36.28:370][299]LogUObjectHash: Compacting FUObjectHashTables data took   3.70ms
+[2024.02.26-23.36.28:463][300]LogPlayLevel: Display: Destroying online subsystem :Context_17
+[2024.02.26-23.36.31:312][353]LogUObjectHash: Compacting FUObjectHashTables data took   2.02ms
+[2024.02.26-23.36.31:351][353]LogUObjectHash: Compacting FUObjectHashTables data took   0.67ms
+[2024.02.26-23.36.32:178][353]LogSlate: Window 'Save Content' being destroyed
+[2024.02.26-23.36.32:200][353]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.02.26-23.36.32:297][353]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/ABP_AI" FILE="C:/Users/drcza/Documents/GitHub/totally-not-horror/Totally_Not_Horror/Content/AI/ABP_AI.uasset" SILENT=true
+[2024.02.26-23.36.32:327][353]LogSavePackage: Moving output files for package: /Game/AI/ABP_AI
+[2024.02.26-23.36.32:328][353]LogSavePackage: Moving 'C:/Users/drcza/Documents/GitHub/totally-not-horror/Totally_Not_Horror/Saved/ABP_AI8AC004A5468B3AFB4432E3A51B4CDD86.tmp' to 'C:/Users/drcza/Documents/GitHub/totally-not-horror/Totally_Not_Horror/Content/AI/ABP_AI.uasset'
+[2024.02.26-23.36.32:333][353]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.02.26-23.36.32:370][353]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/BP_AI" FILE="C:/Users/drcza/Documents/GitHub/totally-not-horror/Totally_Not_Horror/Content/AI/BP_AI.uasset" SILENT=true
+[2024.02.26-23.36.32:376][353]LogSavePackage: Moving output files for package: /Game/AI/BP_AI
+[2024.02.26-23.36.32:377][353]LogSavePackage: Moving 'C:/Users/drcza/Documents/GitHub/totally-not-horror/Totally_Not_Horror/Saved/BP_AI37458C714C349A00641807B2FAF9C184.tmp' to 'C:/Users/drcza/Documents/GitHub/totally-not-horror/Totally_Not_Horror/Content/AI/BP_AI.uasset'
+[2024.02.26-23.36.32:381][353]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/7/S7/D4H8OMIQNU9J1NM4S6SCJD
+[2024.02.26-23.36.32:382][353]LogSavePackage: Moving 'C:/Users/drcza/Documents/GitHub/totally-not-horror/Totally_Not_Horror/Saved/D4H8OMIQNU9J1NM4S6SCJD930FF00B4A1609EE4975E1B79B109ADC.tmp' to 'C:/Users/drcza/Documents/GitHub/totally-not-horror/Totally_Not_Horror/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/7/S7/D4H8OMIQNU9J1NM4S6SCJD.uasset'
+[2024.02.26-23.36.32:400][353]LogFileHelpers: InternalPromptForCheckoutAndSave took 199 ms (total: 342 ms)
+[2024.02.26-23.36.32:409][353]AssetCheck: New page: Asset Save: multiple assets
+[2024.02.26-23.36.32:409][353]LogContentValidation: Display: Validating /Script/Engine.AnimBlueprint /Game/AI/ABP_AI.ABP_AI
+[2024.02.26-23.36.32:409][353]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/AI/BP_AI.BP_AI
+[2024.02.26-23.36.32:409][353]LogContentValidation: Display: Validating /Game/AI/BP_AI.BP_AI_C /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.BP_AI_C_UAID_3C7C3F5AFC98DADC01_1644988847
