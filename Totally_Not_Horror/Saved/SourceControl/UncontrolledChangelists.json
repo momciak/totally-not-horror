@@ -21,7 +21,11 @@
 				"C:/Users/drcza/Documents/GitHub/totally-not-horror/Totally_Not_Horror/Content/Characters/Mannequins/Animations/Quinn/BS_MF_Unarmed_WalkRun.uasset",
 				"C:/Users/drcza/Documents/GitHub/totally-not-horror/Totally_Not_Horror/Content/Characters/Mannequins/Animations/Quinn/MF_Walk_Fwd.uasset",
 				"C:/Users/drcza/Documents/GitHub/totally-not-horror/Totally_Not_Horror/Content/Audio/wood-step-sample-1-47664.uasset",
-				"C:/Users/drcza/Documents/GitHub/totally-not-horror/Totally_Not_Horror/Content/Audio/110099__ronaldvanwonderen__heavy_footstep.uasset"
+				"C:/Users/drcza/Documents/GitHub/totally-not-horror/Totally_Not_Horror/Content/Audio/110099__ronaldvanwonderen__heavy_footstep.uasset",
+				"C:/Users/drcza/Documents/GitHub/totally-not-horror/Totally_Not_Horror/Content/AI/BP_AI_Controller.uasset",
+				"C:/Users/drcza/Documents/GitHub/totally-not-horror/Totally_Not_Horror/Content/AI/BO_AI.uasset",
+				"C:/Users/drcza/Documents/GitHub/totally-not-horror/Totally_Not_Horror/Content/AI/BP_AI.uasset",
+				"C:/Users/drcza/Documents/GitHub/totally-not-horror/Totally_Not_Horror/Content/AI/BT_AI.uasset"
 			]
 		}
 	]

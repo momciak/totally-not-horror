@@ -1222,3 +1222,235 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2024.02.26-00.33.05:320][570]LogContentValidation: Display: Validating /Script/Engine.BlendSpace1D /Game/Characters/Mannequins/Animations/Quinn/BS_MF_Unarmed_WalkRun.BS_MF_Unarmed_WalkRun
 [2024.02.26-00.33.05:320][570]LogContentValidation: Display: Validating /Script/MetasoundEngine.MetaSoundSource /Game/Audio/MS_Footsteps.MS_Footsteps
 [2024.02.26-00.33.05:320][570]LogContentValidation: Display: Validating /Script/Engine.SoundWave /Game/Audio/110099__ronaldvanwonderen__heavy_footstep.110099__ronaldvanwonderen__heavy_footstep
+[2024.02.26-00.36.27:503][313]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.02.26-00.36.27:514][313]LogContentBundle: [ThirdPersonMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2024.02.26-00.36.27:520][313]LogWorldPartition: Display: GenerateStreaming started...
+[2024.02.26-00.36.27:520][313]LogWorldPartition: Display: GetPartitionedActors started...
+[2024.02.26-00.36.27:520][313]LogWorldPartition: Display: GetPartitionedActors took 723 us
+[2024.02.26-00.36.27:521][313]LogWorldPartition: Display: GenerateStreaming took 1 ms
+[2024.02.26-00.36.27:525][313]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.02.26-00.36.27:534][313]PIE: New page: PIE session: ThirdPersonMap (26 Feb 2024, 02:36:27)
+[2024.02.26-00.36.27:545][313]LogOnline: OSS: Created online subsystem instance for: NULL
+[2024.02.26-00.36.27:545][313]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+[2024.02.26-00.36.27:545][313]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2024.02.26-00.36.27:559][313]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013473s)
+[2024.02.26-00.36.27:559][313]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap to /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap (0.013580s)
+[2024.02.26-00.36.27:559][313]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.02.26-00.36.27:560][313]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.02.26-00.36.27:560][313]LogAIModule: Creating AISystem for world ThirdPersonMap
+[2024.02.26-00.36.27:562][313]LogWorldPartition: ULevel::OnLevelLoaded(ThirdPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, bIsValidLevelInstance=0, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2024.02.26-00.36.27:562][313]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.02.26-00.36.27:562][313]LogWorldPartition: UWorldPartition::Initialize(Asset=ThirdPersonMap, IsEditor=0, bPIEWorldTravel=0 IsGame=0, IsCooking=0)
+[2024.02.26-00.36.27:566][313]LogContentBundle: [ThirdPersonMap(Standalone)] Creating new contrainer.
+[2024.02.26-00.36.27:566][313]LogWorldPartition: Display: WorldPartition initialize took 4 ms (total: 1.56 sec)
+[2024.02.26-00.36.27:568][313]LogPlayLevel: PIE: World Init took: (0.008015s)
+[2024.02.26-00.36.27:606][313]LogUObjectHash: Compacting FUObjectHashTables data took   5.13ms
+[2024.02.26-00.36.27:610][313]LogAudio: Display: Creating Audio Device:                 Id: 2, Scope: Unique, Realtime: True
+[2024.02.26-00.36.27:610][313]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.02.26-00.36.27:610][313]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.02.26-00.36.27:610][313]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.02.26-00.36.27:610][313]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.02.26-00.36.27:610][313]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.02.26-00.36.27:610][313]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2024.02.26-00.36.27:610][313]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.02.26-00.36.27:610][313]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.02.26-00.36.27:612][313]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.02.26-00.36.27:612][313]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.02.26-00.36.27:612][313]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.02.26-00.36.27:615][313]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.02.26-00.36.27:968][313]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Realtek(R) Audio)
+[2024.02.26-00.36.27:969][313]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.02.26-00.36.27:969][313]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.02.26-00.36.27:969][313]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.02.26-00.36.27:971][313]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=2
+[2024.02.26-00.36.27:971][313]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=2
+[2024.02.26-00.36.27:975][313]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=2
+[2024.02.26-00.36.27:975][313]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=2
+[2024.02.26-00.36.27:975][313]LogInit: FAudioDevice initialized with ID 2.
+[2024.02.26-00.36.27:975][313]LogAudio: Display: Audio Device (ID: 2) registered with world 'ThirdPersonMap'.
+[2024.02.26-00.36.27:975][313]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 2
+[2024.02.26-00.36.27:998][313]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2024.02.26-00.36.28:005][313]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap up for play (max tick rate 60) at 2024.02.26-01.36.28
+[2024.02.26-00.36.28:007][313]LogWorld: Bringing up level for play took: 0.007357
+[2024.02.26-00.36.28:010][313]LogOnline: OSS: Created online subsystem instance for: :Context_14
+[2024.02.26-00.36.28:080][313]PIE: Server logged in
+[2024.02.26-00.36.28:081][313]PIE: Play in editor total start time 0.567 seconds.
+[2024.02.26-00.37.01:258][643]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.26-00.37.01:259][643]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2024.02.26-00.37.01:262][643]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2024.02.26-00.37.01:265][643]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.02.26-00.37.01:266][643]LogContentBundle: [ThirdPersonMap(Standalone)] Deleting container.
+[2024.02.26-00.37.01:273][643]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.02.26-00.37.01:279][643]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.02.26-00.37.01:303][643]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.26-00.37.01:305][643]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 2
+[2024.02.26-00.37.01:305][643]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=2
+[2024.02.26-00.37.01:308][643]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=2
+[2024.02.26-00.37.01:360][643]LogUObjectHash: Compacting FUObjectHashTables data took   2.13ms
+[2024.02.26-00.37.01:410][644]LogPlayLevel: Display: Destroying online subsystem :Context_14
+[2024.02.26-00.37.01:528][645]LogSlate: Took 0.000548 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2024.02.26-00.37.47:122][413]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2024.02.26-00.37.47:133][413]LogContentBrowser: Creating deferred item: NewFolder
+[2024.02.26-00.37.47:145][414]LogContentBrowser: Renaming the item being created (Deferred Item: NewFolder).
+[2024.02.26-00.37.48:995][505]LogContentBrowser: Attempting asset rename: NewFolder -> AI
+[2024.02.26-00.37.49:005][505]LogContentBrowser: End creating deferred item NewFolder
+[2024.02.26-00.38.42:562][739]LogSlate: Window 'Pick Parent Class' being destroyed
+[2024.02.26-00.38.42:600][739]LogContentBrowser: Deferred new asset file creation: NewBlueprint
+[2024.02.26-00.38.42:628][739]LogContentBrowser: Creating deferred item: NewBlueprint
+[2024.02.26-00.38.42:680][741]LogContentBrowser: Renaming the item being created (Deferred Item: NewBlueprint).
+[2024.02.26-00.38.56:197][139]LogContentBrowser: Attempting asset rename: NewBlueprint -> NewBlueprint
+[2024.02.26-00.38.56:209][139]LogContentBrowser: End creating deferred item NewBlueprint
+[2024.02.26-00.39.07:175][681]LogContentBrowser: Attempting asset rename: NewBlueprint -> BP_AI_Controller
+[2024.02.26-00.39.07:344][681]LogMetaData: Removing '/Game/AI/BP_AI_Controller.BP_AI_Controller:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/AI/NewBlueprint.PackageMetaData'
+[2024.02.26-00.39.07:344][681]LogMetaData: Removing '/Game/AI/BP_AI_Controller.SKEL_BP_AI_Controller_C:UserConstructionScript' ref from Metadata '/Game/AI/NewBlueprint.PackageMetaData'
+[2024.02.26-00.39.07:344][681]LogMetaData: Removing '/Game/AI/BP_AI_Controller.SKEL_BP_AI_Controller_C' ref from Metadata '/Game/AI/NewBlueprint.PackageMetaData'
+[2024.02.26-00.39.07:344][681]LogMetaData: Removing '/Game/AI/BP_AI_Controller.BP_AI_Controller_C' ref from Metadata '/Game/AI/NewBlueprint.PackageMetaData'
+[2024.02.26-00.39.07:344][681]LogMetaData: Removing '/Game/AI/BP_AI_Controller.BP_AI_Controller:EventGraph.K2Node_Event_0' ref from Metadata '/Game/AI/NewBlueprint.PackageMetaData'
+[2024.02.26-00.39.07:344][681]LogMetaData: Removing '/Game/AI/BP_AI_Controller.BP_AI_Controller:EventGraph.K2Node_Event_1' ref from Metadata '/Game/AI/NewBlueprint.PackageMetaData'
+[2024.02.26-00.39.07:351][681]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.02.26-00.39.07:418][681]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/BP_AI_Controller" FILE="C:/Users/drcza/Documents/GitHub/totally-not-horror/Totally_Not_Horror/Content/AI/BP_AI_Controller.uasset" SILENT=true
+[2024.02.26-00.39.07:426][681]LogSavePackage: Moving output files for package: /Game/AI/BP_AI_Controller
+[2024.02.26-00.39.07:426][681]LogSavePackage: Moving 'C:/Users/drcza/Documents/GitHub/totally-not-horror/Totally_Not_Horror/Saved/BP_AI_Controller6AD19A57476DFF3C50831A93953536F8.tmp' to 'C:/Users/drcza/Documents/GitHub/totally-not-horror/Totally_Not_Horror/Content/AI/BP_AI_Controller.uasset'
+[2024.02.26-00.39.07:441][681]LogFileHelpers: InternalPromptForCheckoutAndSave took 88 ms (total: 346 ms)
+[2024.02.26-00.39.07:480][681]LogUObjectHash: Compacting FUObjectHashTables data took   1.64ms
+[2024.02.26-00.39.07:506][681]LogUObjectHash: Compacting FUObjectHashTables data took   1.17ms
+[2024.02.26-00.39.07:530][681]LogUObjectHash: Compacting FUObjectHashTables data took   0.53ms
+[2024.02.26-00.39.07:537][681]AssetCheck: New page: Asset Save: BP_AI_Controller
+[2024.02.26-00.39.07:537][681]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/AI/BP_AI_Controller.BP_AI_Controller
+[2024.02.26-00.40.09:598][933]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/AI/BP_AI_Controller.BP_AI_Controller
+[2024.02.26-00.40.09:607][933]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.02.26-00.40.09:607][933]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.02.26-00.40.10:875][933]LogViewport: Scene viewport resized to 846x634, mode Windowed.
+[2024.02.26-00.43.47:361][555]BlueprintLog: New page: Compile BP_AI_Controller
+[2024.02.26-00.43.47:456][555]LogUObjectHash: Compacting FUObjectHashTables data took   5.56ms
+[2024.02.26-00.43.58:303][ 66]LogContentBrowser: Deferred new asset file creation: NewBehaviorTree
+[2024.02.26-00.43.58:312][ 66]LogContentBrowser: Creating deferred item: NewBehaviorTree
+[2024.02.26-00.43.58:328][ 67]LogContentBrowser: Renaming the item being created (Deferred Item: NewBehaviorTree).
+[2024.02.26-00.44.09:566][377]LogContentBrowser: Attempting asset rename: NewBehaviorTree -> BT_AI
+[2024.02.26-00.44.09:574][377]LogContentBrowser: End creating deferred item NewBehaviorTree
+[2024.02.26-00.49.16:369][743]LogContentBrowser: Deferred new asset file creation: NewBlackboardData
+[2024.02.26-00.49.16:380][743]LogContentBrowser: Creating deferred item: NewBlackboardData
+[2024.02.26-00.49.16:394][744]LogContentBrowser: Renaming the item being created (Deferred Item: NewBlackboardData).
+[2024.02.26-00.49.21:797][813]LogContentBrowser: Attempting asset rename: NewBlackboardData -> NewBlackboardData
+[2024.02.26-00.49.21:805][813]LogContentBrowser: End creating deferred item NewBlackboardData
+[2024.02.26-00.49.29:598][181]LogContentBrowser: Attempting asset rename: NewBlackboardData -> BO_AI
+[2024.02.26-00.49.29:663][181]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.02.26-00.49.29:739][181]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/BO_AI" FILE="C:/Users/drcza/Documents/GitHub/totally-not-horror/Totally_Not_Horror/Content/AI/BO_AI.uasset" SILENT=true
+[2024.02.26-00.49.29:740][181]LogSavePackage: Moving output files for package: /Game/AI/BO_AI
+[2024.02.26-00.49.29:740][181]LogSavePackage: Moving 'C:/Users/drcza/Documents/GitHub/totally-not-horror/Totally_Not_Horror/Saved/BO_AI2B95C3C545D8EF30CF5F7B8DAA1692F1.tmp' to 'C:/Users/drcza/Documents/GitHub/totally-not-horror/Totally_Not_Horror/Content/AI/BO_AI.uasset'
+[2024.02.26-00.49.29:752][181]LogFileHelpers: InternalPromptForCheckoutAndSave took 88 ms (total: 434 ms)
+[2024.02.26-00.49.29:801][181]LogUObjectHash: Compacting FUObjectHashTables data took   1.35ms
+[2024.02.26-00.49.29:834][181]LogUObjectHash: Compacting FUObjectHashTables data took   1.68ms
+[2024.02.26-00.49.29:866][181]LogUObjectHash: Compacting FUObjectHashTables data took   0.61ms
+[2024.02.26-00.49.29:873][181]AssetCheck: New page: Asset Save: BO_AI
+[2024.02.26-00.49.29:873][181]LogContentValidation: Display: Validating /Script/AIModule.BlackboardData /Game/AI/BO_AI.BO_AI
+[2024.02.26-00.49.56:283][323]LogUObjectHash: Compacting FUObjectHashTables data took   1.19ms
+[2024.02.26-00.49.56:286][323]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/ThirdPerson/Maps/ThirdPersonMap' took 0.046
+[2024.02.26-00.49.56:286][323]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/AI/BP_AI_Controller] ([2] browsable assets)...
+[2024.02.26-00.49.56:286][323]OBJ SavePackage: Finished generating thumbnails for package [/Game/AI/BP_AI_Controller]
+[2024.02.26-00.49.56:298][323]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/AI/BP_AI_Controller_Auto2
+[2024.02.26-00.49.56:298][323]LogSavePackage: Moving 'C:/Users/drcza/Documents/GitHub/totally-not-horror/Totally_Not_Horror/Saved/BP_AI_Controller_Auto288AFC6C444BADBF6AD06EAB3C5BF92F2.tmp' to 'C:/Users/drcza/Documents/GitHub/totally-not-horror/Totally_Not_Horror/Saved/Autosaves/Game/AI/BP_AI_Controller_Auto2.uasset'
+[2024.02.26-00.49.56:299][323]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/AI/BT_AI] ([1] browsable assets)...
+[2024.02.26-00.49.56:299][323]OBJ SavePackage: Finished generating thumbnails for package [/Game/AI/BT_AI]
+[2024.02.26-00.49.56:299][323]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/BT_AI" FILE="C:/Users/drcza/Documents/GitHub/totally-not-horror/Totally_Not_Horror/Saved/Autosaves/Game/AI/BT_AI_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2024.02.26-00.49.56:300][323]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/AI/BT_AI_Auto2
+[2024.02.26-00.49.56:300][323]LogSavePackage: Moving 'C:/Users/drcza/Documents/GitHub/totally-not-horror/Totally_Not_Horror/Saved/BT_AI_Auto223B2C88C4B5EF141AA5BB19E4DF878E2.tmp' to 'C:/Users/drcza/Documents/GitHub/totally-not-horror/Totally_Not_Horror/Saved/Autosaves/Game/AI/BT_AI_Auto2.uasset'
+[2024.02.26-00.49.56:301][323]LogFileHelpers: Auto-saving content packages took 0.016
+[2024.02.26-00.50.03:655][531]BlueprintLog: New page: Compile BP_AI_Controller
+[2024.02.26-00.50.03:750][531]LogUObjectHash: Compacting FUObjectHashTables data took   3.53ms
+[2024.02.26-00.53.22:968][599]LogAssetEditorSubsystem: Opening Asset editor for BehaviorTree /Game/AI/BT_AI.BT_AI
+[2024.02.26-00.54.05:073][136]LogSlate: Window 'Pick Parent Class' being destroyed
+[2024.02.26-00.54.05:086][136]LogContentBrowser: Deferred new asset file creation: NewBlueprint
+[2024.02.26-00.54.05:095][136]LogContentBrowser: Creating deferred item: NewBlueprint
+[2024.02.26-00.54.05:113][137]LogContentBrowser: Renaming the item being created (Deferred Item: NewBlueprint).
+[2024.02.26-00.54.12:387][230]LogContentBrowser: Attempting asset rename: NewBlueprint -> NewBlueprint
+[2024.02.26-00.54.12:414][230]LogPackageName: SearchForPackageOnDisk took   0.000s, but failed to resolve /Game/AI/NewBlueprint.
+[2024.02.26-00.54.12:420][230]LogContentBrowser: End creating deferred item NewBlueprint
+[2024.02.26-00.54.12:701][232]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/AI/NewBlueprint.NewBlueprint
+[2024.02.26-00.54.12:702][232]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.02.26-00.54.12:702][232]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.02.26-00.54.13:850][232]LogViewport: Scene viewport resized to 846x634, mode Windowed.
+[2024.02.26-00.54.21:251][549]LogContentBrowser: Attempting asset rename: NewBlueprint -> BP_AI
+[2024.02.26-00.54.21:307][549]LogMetaData: Removing '/Game/AI/BP_AI.BP_AI:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/AI/NewBlueprint.PackageMetaData'
+[2024.02.26-00.54.21:307][549]LogMetaData: Removing '/Game/AI/BP_AI.SKEL_BP_AI_C:UserConstructionScript' ref from Metadata '/Game/AI/NewBlueprint.PackageMetaData'
+[2024.02.26-00.54.21:307][549]LogMetaData: Removing '/Game/AI/BP_AI.SKEL_BP_AI_C' ref from Metadata '/Game/AI/NewBlueprint.PackageMetaData'
+[2024.02.26-00.54.21:307][549]LogMetaData: Removing '/Game/AI/BP_AI.BP_AI_C' ref from Metadata '/Game/AI/NewBlueprint.PackageMetaData'
+[2024.02.26-00.54.21:308][549]LogMetaData: Removing '/Game/AI/BP_AI.BP_AI:EventGraph.K2Node_Event_0' ref from Metadata '/Game/AI/NewBlueprint.PackageMetaData'
+[2024.02.26-00.54.21:308][549]LogMetaData: Removing '/Game/AI/BP_AI.BP_AI:EventGraph.K2Node_Event_1' ref from Metadata '/Game/AI/NewBlueprint.PackageMetaData'
+[2024.02.26-00.54.21:308][549]LogMetaData: Removing '/Game/AI/BP_AI.BP_AI:EventGraph.K2Node_Event_2' ref from Metadata '/Game/AI/NewBlueprint.PackageMetaData'
+[2024.02.26-00.54.21:309][549]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.02.26-00.54.21:370][549]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/BP_AI" FILE="C:/Users/drcza/Documents/GitHub/totally-not-horror/Totally_Not_Horror/Content/AI/BP_AI.uasset" SILENT=true
+[2024.02.26-00.54.21:374][549]LogSavePackage: Moving output files for package: /Game/AI/BP_AI
+[2024.02.26-00.54.21:374][549]LogSavePackage: Moving 'C:/Users/drcza/Documents/GitHub/totally-not-horror/Totally_Not_Horror/Saved/BP_AIBF5611E44DA4B3448D38ED9D37AC6980.tmp' to 'C:/Users/drcza/Documents/GitHub/totally-not-horror/Totally_Not_Horror/Content/AI/BP_AI.uasset'
+[2024.02.26-00.54.21:375][549]LogPackageName: SearchForPackageOnDisk took   0.000s to resolve /Game/AI/BP_AI.
+[2024.02.26-00.54.21:387][549]LogFileHelpers: InternalPromptForCheckoutAndSave took 78 ms (total: 513 ms)
+[2024.02.26-00.54.21:446][549]LogUObjectHash: Compacting FUObjectHashTables data took   2.10ms
+[2024.02.26-00.54.21:490][549]LogUObjectHash: Compacting FUObjectHashTables data took   1.72ms
+[2024.02.26-00.54.21:532][549]LogUObjectHash: Compacting FUObjectHashTables data took   0.68ms
+[2024.02.26-00.54.21:539][549]AssetCheck: New page: Asset Save: BP_AI
+[2024.02.26-00.54.21:539][549]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/AI/BP_AI.BP_AI
+[2024.02.26-00.59.56:945][602]LogUObjectHash: Compacting FUObjectHashTables data took   1.20ms
+[2024.02.26-00.59.56:947][602]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/ThirdPerson/Maps/ThirdPersonMap' took 0.062
+[2024.02.26-00.59.56:947][602]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/AI/BP_AI_Controller] ([2] browsable assets)...
+[2024.02.26-00.59.56:947][602]OBJ SavePackage: Finished generating thumbnails for package [/Game/AI/BP_AI_Controller]
+[2024.02.26-00.59.56:959][602]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/AI/BP_AI_Controller_Auto3
+[2024.02.26-00.59.56:959][602]LogSavePackage: Moving 'C:/Users/drcza/Documents/GitHub/totally-not-horror/Totally_Not_Horror/Saved/BP_AI_Controller_Auto3D54FC960432CF3899D3F78B0D57D9415.tmp' to 'C:/Users/drcza/Documents/GitHub/totally-not-horror/Totally_Not_Horror/Saved/Autosaves/Game/AI/BP_AI_Controller_Auto3.uasset'
+[2024.02.26-00.59.56:962][602]LogFileHelpers: Auto-saving content packages took 0.015
+[2024.02.26-01.01.56:183][ 41]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.02.26-01.02.03:452][253]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/Characters/Mannequins/Rigs/Poses/Manny/Manny_calf_l_anim.Manny_calf_l_anim
+[2024.02.26-01.02.03:486][253]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/Characters/Mannequins/Rigs/Poses/Manny/Manny_calf_r_anim.Manny_calf_r_anim
+[2024.02.26-01.02.03:490][253]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/Characters/Mannequins/Rigs/Poses/Manny/Manny_clavicle_l_anim.Manny_clavicle_l_anim
+[2024.02.26-01.02.03:503][253]LogAnimationCompression: Display: Storing compressed animation data for /Game/Characters/Mannequins/Rigs/Poses/Manny/Manny_calf_l_anim.Manny_calf_l_anim, at AnimationSequence/219b1585d847ffc13b56e87cee7df39a0ec31868
+[2024.02.26-01.02.03:552][253]LogAnimationCompression: Display: Storing compressed animation data for /Game/Characters/Mannequins/Rigs/Poses/Manny/Manny_calf_r_anim.Manny_calf_r_anim, at AnimationSequence/c3447510b4f69a7818c5b257d6789ab7573f7831
+[2024.02.26-01.02.03:593][253]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/Characters/Mannequins/Rigs/Poses/Manny/Manny_clavicle_r_anim.Manny_clavicle_r_anim
+[2024.02.26-01.02.03:599][253]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/Characters/Mannequins/Rigs/Poses/Manny/Manny_foot_l_anim.Manny_foot_l_anim
+[2024.02.26-01.02.03:613][253]LogAnimationCompression: Display: Storing compressed animation data for /Game/Characters/Mannequins/Rigs/Poses/Manny/Manny_clavicle_l_anim.Manny_clavicle_l_anim, at AnimationSequence/6f902faeba0bc9182b95305a48bf5b50ecf0831b
+[2024.02.26-01.02.03:675][253]LogAnimationCompression: Display: Storing compressed animation data for /Game/Characters/Mannequins/Rigs/Poses/Manny/Manny_foot_l_anim.Manny_foot_l_anim, at AnimationSequence/cc8576ab2b69b5c2774981b3a3d6a25c31aa21fd
+[2024.02.26-01.02.03:676][253]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/Characters/Mannequins/Rigs/Poses/Manny/Manny_foot_r_anim.Manny_foot_r_anim
+[2024.02.26-01.02.03:677][253]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/Characters/Mannequins/Rigs/Poses/Manny/Manny_hand_l_anim.Manny_hand_l_anim
+[2024.02.26-01.02.03:702][253]LogAnimationCompression: Display: Storing compressed animation data for /Game/Characters/Mannequins/Rigs/Poses/Manny/Manny_clavicle_r_anim.Manny_clavicle_r_anim, at AnimationSequence/8b354221cb640593b54aad7a031e79043988136a
+[2024.02.26-01.02.03:734][253]LogAnimationCompression: Display: Storing compressed animation data for /Game/Characters/Mannequins/Rigs/Poses/Manny/Manny_foot_r_anim.Manny_foot_r_anim, at AnimationSequence/2932ee3af2473cbab9c6190cd33adf9b579dfcc9
+[2024.02.26-01.02.03:767][253]LogAnimationCompression: Display: Storing compressed animation data for /Game/Characters/Mannequins/Rigs/Poses/Manny/Manny_hand_l_anim.Manny_hand_l_anim, at AnimationSequence/d5ceaca062493e42232f60993d90d28c8dd6df7b
+[2024.02.26-01.02.03:768][253]LogSkeletalMesh: Building Skeletal Mesh SKM_Manny...
+[2024.02.26-01.02.03:816][253]LogSkeletalMesh: Display: Waiting for skinned assets to be ready 0/1 (SKM_Manny) ...
+[2024.02.26-01.02.06:121][253]LogSkeletalMeshReduction: Reducing skeletal mesh for LOD 2 
+[2024.02.26-01.02.06:122][253]LogSkeletalMeshReduction: Reducing skeletal mesh for LOD 3 
+[2024.02.26-01.02.12:709][253]LogSkeletalMesh: Built Skeletal Mesh [8.94s] /Game/Characters/Mannequins/Meshes/SKM_Manny.SKM_Manny
+[2024.02.26-01.02.12:711][253]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/Characters/Mannequins/Rigs/Poses/Manny/Manny_thigh_l_anim.Manny_thigh_l_anim
+[2024.02.26-01.02.12:712][253]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/Characters/Mannequins/Rigs/Poses/Manny/Manny_lowerarm_r_anim.Manny_lowerarm_r_anim
+[2024.02.26-01.02.12:746][253]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/Characters/Mannequins/Rigs/Poses/Manny/Manny_thigh_r_anim.Manny_thigh_r_anim
+[2024.02.26-01.02.12:810][253]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.02.26-01.02.12:907][254]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.02.26-01.02.12:966][254]LogAnimationCompression: Display: Storing compressed animation data for /Game/Characters/Mannequins/Rigs/Poses/Manny/Manny_thigh_l_anim.Manny_thigh_l_anim, at AnimationSequence/3cf0a7c524203ad9f49c9ec71753619d1e5e1eb7
+[2024.02.26-01.02.12:999][254]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/Characters/Mannequins/Rigs/Poses/Manny/Manny_hand_r_anim.Manny_hand_r_anim
+[2024.02.26-01.02.13:031][254]LogAnimationCompression: Display: Storing compressed animation data for /Game/Characters/Mannequins/Rigs/Poses/Manny/Manny_lowerarm_r_anim.Manny_lowerarm_r_anim, at AnimationSequence/5a930e4d9fde5ccf15c434eb6d6f39453c787c48
+[2024.02.26-01.02.13:040][254]LogAnimationCompression: Display: Storing compressed animation data for /Game/Characters/Mannequins/Rigs/Poses/Manny/Manny_thigh_r_anim.Manny_thigh_r_anim, at AnimationSequence/50428b6ae280ca9e233b3fe5c9f23edcb5fb000c
+[2024.02.26-01.02.13:050][254]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/Characters/Mannequins/Rigs/Poses/Manny/Manny_upperarm_l_anim.Manny_upperarm_l_anim
+[2024.02.26-01.02.13:054][254]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/Characters/Mannequins/Rigs/Poses/Manny/Manny_lowerarm_l_anim.Manny_lowerarm_l_anim
+[2024.02.26-01.02.13:068][254]LogAnimationCompression: Display: Storing compressed animation data for /Game/Characters/Mannequins/Rigs/Poses/Manny/Manny_hand_r_anim.Manny_hand_r_anim, at AnimationSequence/d7fe426629cb38dab20f167376645fcaa6d62267
+[2024.02.26-01.02.13:195][255]LogAnimationCompression: Display: Storing compressed animation data for /Game/Characters/Mannequins/Rigs/Poses/Manny/Manny_upperarm_l_anim.Manny_upperarm_l_anim, at AnimationSequence/8f8923f7cbb48e2f30ce05b1150a9c309565f04c
+[2024.02.26-01.02.13:197][255]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/Characters/Mannequins/Rigs/Poses/Manny/Manny_upperarm_r_anim.Manny_upperarm_r_anim
+[2024.02.26-01.02.13:231][255]LogAnimationCompression: Display: Storing compressed animation data for /Game/Characters/Mannequins/Rigs/Poses/Manny/Manny_lowerarm_l_anim.Manny_lowerarm_l_anim, at AnimationSequence/a6630cbd5b02b4f5e5cc94078642ae45130b8bc7
+[2024.02.26-01.02.13:240][255]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.02.26-01.02.13:338][256]LogAnimationCompression: Display: Storing compressed animation data for /Game/Characters/Mannequins/Rigs/Poses/Manny/Manny_upperarm_r_anim.Manny_upperarm_r_anim, at AnimationSequence/458312d8ca3d744c60878b15ba03242b2d2a010c
+[2024.02.26-01.02.52:043][756]LogSlateStyle: Warning: Missing Resource from 'CoreStyle' Style: 'Unable to find Color 'DefaultForeground'.'
+[2024.02.26-01.03.04:958][920]BlueprintLog: New page: Compile BP_AI
+[2024.02.26-01.03.05:153][920]LogUObjectHash: Compacting FUObjectHashTables data took   2.17ms
+[2024.02.26-01.03.06:716][958]LogUObjectHash: Compacting FUObjectHashTables data took   2.89ms
+[2024.02.26-01.03.07:947][958]LogSlate: Window 'Save Content' being destroyed
+[2024.02.26-01.03.07:963][958]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.02.26-01.03.08:090][958]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.02.26-01.03.08:144][958]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/BP_AI" FILE="C:/Users/drcza/Documents/GitHub/totally-not-horror/Totally_Not_Horror/Content/AI/BP_AI.uasset" SILENT=true
+[2024.02.26-01.03.08:150][958]LogSavePackage: Moving output files for package: /Game/AI/BP_AI
+[2024.02.26-01.03.08:150][958]LogSavePackage: Moving 'C:/Users/drcza/Documents/GitHub/totally-not-horror/Totally_Not_Horror/Saved/BP_AIDB633601456F7DFE48ADEFB394E66DAA.tmp' to 'C:/Users/drcza/Documents/GitHub/totally-not-horror/Totally_Not_Horror/Content/AI/BP_AI.uasset'
+[2024.02.26-01.03.08:152][958]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/BP_AI_Controller" FILE="C:/Users/drcza/Documents/GitHub/totally-not-horror/Totally_Not_Horror/Content/AI/BP_AI_Controller.uasset" SILENT=true
+[2024.02.26-01.03.08:157][958]LogSavePackage: Moving output files for package: /Game/AI/BP_AI_Controller
+[2024.02.26-01.03.08:158][958]LogSavePackage: Moving 'C:/Users/drcza/Documents/GitHub/totally-not-horror/Totally_Not_Horror/Saved/BP_AI_Controller477638974316C4AFAF8A9DA9D3338B7D.tmp' to 'C:/Users/drcza/Documents/GitHub/totally-not-horror/Totally_Not_Horror/Content/AI/BP_AI_Controller.uasset'
+[2024.02.26-01.03.08:160][958]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/BT_AI" FILE="C:/Users/drcza/Documents/GitHub/totally-not-horror/Totally_Not_Horror/Content/AI/BT_AI.uasset" SILENT=true
+[2024.02.26-01.03.08:162][958]LogSavePackage: Moving output files for package: /Game/AI/BT_AI
+[2024.02.26-01.03.08:162][958]LogSavePackage: Moving 'C:/Users/drcza/Documents/GitHub/totally-not-horror/Totally_Not_Horror/Saved/BT_AIE244CEBD4CAC967D50C619BAD7176363.tmp' to 'C:/Users/drcza/Documents/GitHub/totally-not-horror/Totally_Not_Horror/Content/AI/BT_AI.uasset'
+[2024.02.26-01.03.08:181][958]LogFileHelpers: InternalPromptForCheckoutAndSave took 219 ms (total: 732 ms)
+[2024.02.26-01.03.08:197][958]AssetCheck: New page: Asset Save: multiple assets
+[2024.02.26-01.03.08:197][958]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/AI/BP_AI_Controller.BP_AI_Controller
+[2024.02.26-01.03.08:197][958]LogContentValidation: Display: Validating /Script/AIModule.BehaviorTree /Game/AI/BT_AI.BT_AI
+[2024.02.26-01.03.08:197][958]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/AI/BP_AI.BP_AI
