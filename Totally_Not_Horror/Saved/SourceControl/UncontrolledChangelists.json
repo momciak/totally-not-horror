@@ -31,7 +31,10 @@
 				"C:/Users/drcza/Documents/GitHub/totally-not-horror/Totally_Not_Horror/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/9/7I/B29DG4573ZJYSZHZFEKMVN.uasset",
 				"C:/Users/drcza/Documents/GitHub/totally-not-horror/Totally_Not_Horror/Content/AI/Tasks/BT_Task_RoamAround.uasset",
 				"C:/Users/drcza/Documents/GitHub/totally-not-horror/Totally_Not_Horror/Content/AI/ABP_AI.uasset",
-				"C:/Users/drcza/Documents/GitHub/totally-not-horror/Totally_Not_Horror/Content/AI/AI_blendSpace1D.uasset"
+				"C:/Users/drcza/Documents/GitHub/totally-not-horror/Totally_Not_Horror/Content/AI/AI_blendSpace1D.uasset",
+				"C:/Users/drcza/Documents/GitHub/totally-not-horror/Totally_Not_Horror/Content/ThirdPerson/Blueprints/BP_ThirdPersonGameMode.uasset",
+				"C:/Users/drcza/Documents/GitHub/totally-not-horror/Totally_Not_Horror/Content/ThirdPerson/Blueprints/BP_First_PersonCharacter.uasset",
+				"C:/Users/drcza/Documents/GitHub/totally-not-horror/Totally_Not_Horror/Content/AI/Tasks/BT_Task_Chase_Player.uasset"
 			]
 		}
 	]

@@ -1449,3 +1449,233 @@ The project directory:
 [2024.02.26-23.36.32:409][353]LogContentValidation: Display: Validating /Script/Engine.AnimBlueprint /Game/AI/ABP_AI.ABP_AI
 [2024.02.26-23.36.32:409][353]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/AI/BP_AI.BP_AI
 [2024.02.26-23.36.32:409][353]LogContentValidation: Display: Validating /Game/AI/BP_AI.BP_AI_C /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.BP_AI_C_UAID_3C7C3F5AFC98DADC01_1644988847
+[2024.02.26-23.51.51:478][693]LogUObjectHash: Compacting FUObjectHashTables data took   1.14ms
+[2024.02.26-23.51.52:331][693]LogSlate: Window 'Save Content' being destroyed
+[2024.02.26-23.51.52:349][693]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.02.26-23.51.52:443][693]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/AI_blendSpace1D" FILE="C:/Users/drcza/Documents/GitHub/totally-not-horror/Totally_Not_Horror/Content/AI/AI_blendSpace1D.uasset" SILENT=true
+[2024.02.26-23.51.52:444][693]LogSavePackage: Moving output files for package: /Game/AI/AI_blendSpace1D
+[2024.02.26-23.51.52:446][693]LogSavePackage: Moving 'C:/Users/drcza/Documents/GitHub/totally-not-horror/Totally_Not_Horror/Saved/AI_blendSpace1DACAE978648491CB61E0944B3D6C3C282.tmp' to 'C:/Users/drcza/Documents/GitHub/totally-not-horror/Totally_Not_Horror/Content/AI/AI_blendSpace1D.uasset'
+[2024.02.26-23.51.52:458][693]LogFileHelpers: InternalPromptForCheckoutAndSave took 108 ms (total: 450 ms)
+[2024.02.26-23.51.52:464][693]AssetCheck: New page: Asset Save: AI_blendSpace1D
+[2024.02.26-23.51.52:464][693]LogContentValidation: Display: Validating /Script/Engine.BlendSpace1D /Game/AI/AI_blendSpace1D.AI_blendSpace1D
+[2024.02.27-00.00.27:556][501]LogAudioMixer: Warning: AudioMixerPlatformInterface Timeout [5001ms] waiting for h/w. InstanceID=1
+[2024.02.27-00.00.30:738][501]LogD3D12RHI: Warning: GPU timeout: A payload (0x000005E736044440) on the [0x000005E71F4CE280, 3D] queue has not completed after 5.000000 seconds.
+[2024.02.27-00.00.32:557][501]LogAudioMixer: Warning: AudioMixerPlatformInterface Timeout [5000ms] waiting for h/w. InstanceID=1
+[2024.02.27-00.00.37:583][501]LogAudioMixer: Warning: AudioMixerPlatformInterface Timeout [5004ms] waiting for h/w. InstanceID=1
+[2024.02.27-00.44.10:936][501]LogAudioMixer: Warning: AudioMixerPlatformInterface Timeout [2613364ms] waiting for h/w. InstanceID=1
+[2024.02.27-00.44.48:641][501]LogAudioMixer: Warning: AudioMixerPlatformInterface Timeout [5002ms] waiting for h/w. InstanceID=1
+[2024.02.27-00.44.57:896][501]LogAudioMixer: Warning: AudioMixerPlatformInterface Timeout [9266ms] waiting for h/w. InstanceID=1
+[2024.02.27-00.45.46:428][501]LogAudioMixer: Warning: AudioMixerPlatformInterface Timeout [5001ms] waiting for h/w. InstanceID=1
+[2024.02.27-00.45.57:668][501]LogAudioMixer: Warning: AudioMixerPlatformInterface Timeout [11253ms] waiting for h/w. InstanceID=1
+[2024.02.27-00.46.29:587][501]LogAudioMixer: Warning: AudioMixerPlatformInterface Timeout [5000ms] waiting for h/w. InstanceID=1
+[2024.02.27-00.46.48:858][501]LogAudioMixer: Warning: AudioMixerPlatformInterface Timeout [19279ms] waiting for h/w. InstanceID=1
+[2024.02.27-00.47.13:370][501]LogD3D12RHI: Warning: GPU timeout: A payload (0x000005E736048CE0) on the [0x000005E71F4CE280, 3D] queue has not completed after 2807.358846 seconds.
+[2024.02.27-00.47.13:387][501]LogD3D12RHI: Warning: GPU timeout: A payload (0x000005E73604CA20) on the [0x000005E71F4CE280, 3D] queue has not completed after 2807.375804 seconds.
+[2024.02.27-00.47.13:403][501]LogD3D12RHI: Warning: GPU timeout: A payload (0x000005E73604EA80) on the [0x000005E71F4CE280, 3D] queue has not completed after 2807.391377 seconds.
+[2024.02.27-00.47.13:409][501]LogD3D12RHI: Warning: GPU timeout: A payload (0x000005E7360462E0) on the [0x000005E71F4CE280, 3D] queue has not completed after 2807.395992 seconds.
+[2024.02.27-00.47.13:411][501]LogD3D12RHI: Warning: GPU timeout: A payload (0x000005E7360487A0) on the [0x000005E71F4CE280, 3D] queue has not completed after 2807.397164 seconds.
+[2024.02.27-00.47.13:416][501]LogD3D12RHI: Warning: GPU timeout: A payload (0x000005E736041CE0) on the [0x000005E71F4CE280, 3D] queue has not completed after 2807.401604 seconds.
+[2024.02.27-00.47.13:421][501]LogD3D12RHI: Warning: GPU timeout: A payload (0x000005E736040B60) on the [0x000005E71F4CE280, 3D] queue has not completed after 2807.406387 seconds.
+[2024.02.27-00.47.13:423][501]LogD3D12RHI: Warning: GPU timeout: A payload (0x000005E736043D40) on the [0x000005E71F4CE280, 3D] queue has not completed after 2807.406050 seconds.
+[2024.02.27-00.47.13:432][501]LogD3D12RHI: Warning: GPU timeout: A payload (0x000005E7360463C0) on the [0x000005E71F4CE280, 3D] queue has not completed after 2807.413496 seconds.
+[2024.02.27-00.47.14:662][501]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=37684
+[2024.02.27-00.47.16:546][502]LogAudioMixer: Display: Successful Swap new Device is (NumChannels=2, SampleRate=48000, DeviceID={0.0.0.00000000}.{e9a64eb5-223b-49f1-aa3e-15c0d8208106}, Name=Headphones (Realtek(R) Audio)), Reason=AudioMixerPlatformInterface. Timeout waiting for h/w., InstanceID=1, DurationMS=1648.87
+[2024.02.27-00.47.16:549][502]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2024.02.27-00.47.16:556][502]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2024.02.27-00.47.17:672][504]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2024.02.27-00.49.25:161][939]LogViewport: Scene viewport resized to 846x634, mode Windowed.
+[2024.02.27-00.50.51:598][507]BlueprintLog: New page: Compile BP_AI
+[2024.02.27-00.50.51:914][507]LogUObjectHash: Compacting FUObjectHashTables data took   7.97ms
+[2024.02.27-00.51.40:829][289]BlueprintLog: New page: Compile BP_AI
+[2024.02.27-00.51.40:905][289]LogUObjectHash: Compacting FUObjectHashTables data took   2.13ms
+[2024.02.27-00.52.08:521][474]LogUObjectHash: Compacting FUObjectHashTables data took   1.48ms
+[2024.02.27-00.52.08:553][474]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/7/S7/D4H8OMIQNU9J1NM4S6SCJD_Auto1
+[2024.02.27-00.52.08:554][474]LogSavePackage: Moving 'C:/Users/drcza/Documents/GitHub/totally-not-horror/Totally_Not_Horror/Saved/D4H8OMIQNU9J1NM4S6SCJD_Auto141930A1745FEAA7E25AEE1BA896F1084.tmp' to 'C:/Users/drcza/Documents/GitHub/totally-not-horror/Totally_Not_Horror/Saved/Autosaves/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/7/S7/D4H8OMIQNU9J1NM4S6SCJD_Auto1.uasset'
+[2024.02.27-00.52.08:566][474]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/ThirdPerson/Maps/ThirdPersonMap' took 0.122
+[2024.02.27-00.52.08:566][474]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.122
+[2024.02.27-00.52.08:572][474]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/AI/BP_AI] ([2] browsable assets)...
+[2024.02.27-00.52.08:629][474]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/AI/BP_AI.BP_AI]
+[2024.02.27-00.52.08:629][474]OBJ SavePackage: Finished generating thumbnails for package [/Game/AI/BP_AI]
+[2024.02.27-00.52.08:632][474]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/BP_AI" FILE="C:/Users/drcza/Documents/GitHub/totally-not-horror/Totally_Not_Horror/Saved/Autosaves/Game/AI/BP_AI_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2024.02.27-00.52.08:655][474]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/AI/BP_AI_Auto1
+[2024.02.27-00.52.08:658][474]LogSavePackage: Moving 'C:/Users/drcza/Documents/GitHub/totally-not-horror/Totally_Not_Horror/Saved/BP_AI_Auto1251A587748F29C53DE405EABFE1756FC.tmp' to 'C:/Users/drcza/Documents/GitHub/totally-not-horror/Totally_Not_Horror/Saved/Autosaves/Game/AI/BP_AI_Auto1.uasset'
+[2024.02.27-00.52.08:660][474]LogFileHelpers: Auto-saving content packages took 0.093
+[2024.02.27-00.55.23:620][989]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.02.27-00.55.26:068][ 83]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.BP_ThirdPersonCharacter
+[2024.02.27-00.55.26:072][ 83]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.02.27-00.55.26:073][ 83]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.02.27-00.55.38:763][121]LogWorld: UWorld::CleanupWorld for World_16, bSessionEnded=true, bCleanupResources=true
+[2024.02.27-00.55.38:766][121]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.02.27-00.55.46:115][398]LogContentBrowser: Attempting asset rename: BP_ThirdPersonCharacter -> BP_ThirdPersonCharacter
+[2024.02.27-00.55.58:694][861]LogContentBrowser: Attempting asset rename: BP_ThirdPersonCharacter -> BP_First_PersonCharacter
+[2024.02.27-00.55.58:907][861]LogMetaData: Removing '/Game/ThirdPerson/Blueprints/BP_First_PersonCharacter.BP_First_PersonCharacter_C' ref from Metadata '/Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.PackageMetaData'
+[2024.02.27-00.55.58:907][861]LogMetaData: Removing '/Game/ThirdPerson/Blueprints/BP_First_PersonCharacter.SKEL_BP_First_PersonCharacter_C:ReceiveBeginPlay' ref from Metadata '/Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.PackageMetaData'
+[2024.02.27-00.55.58:907][861]LogMetaData: Removing '/Game/ThirdPerson/Blueprints/BP_First_PersonCharacter.SKEL_BP_First_PersonCharacter_C:UserConstructionScript' ref from Metadata '/Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.PackageMetaData'
+[2024.02.27-00.55.58:907][861]LogMetaData: Removing '/Game/ThirdPerson/Blueprints/BP_First_PersonCharacter.SKEL_BP_First_PersonCharacter_C' ref from Metadata '/Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.PackageMetaData'
+[2024.02.27-00.55.58:907][861]LogMetaData: Removing '/Game/ThirdPerson/Blueprints/BP_First_PersonCharacter.BP_First_PersonCharacter_C:ReceiveBeginPlay' ref from Metadata '/Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.PackageMetaData'
+[2024.02.27-00.55.58:921][861]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.02.27-00.55.58:998][861]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Blueprints/BP_ThirdPersonGameMode
+[2024.02.27-00.55.58:999][861]LogSavePackage: Moving 'C:/Users/drcza/Documents/GitHub/totally-not-horror/Totally_Not_Horror/Saved/BP_ThirdPersonGameMode26B7A200412FA62DD5F461A9F62A72F5.tmp' to 'C:/Users/drcza/Documents/GitHub/totally-not-horror/Totally_Not_Horror/Content/ThirdPerson/Blueprints/BP_ThirdPersonGameMode.uasset'
+[2024.02.27-00.55.59:002][861]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.02.27-00.55.59:054][861]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Blueprints/BP_First_PersonCharacter
+[2024.02.27-00.55.59:054][861]LogSavePackage: Moving 'C:/Users/drcza/Documents/GitHub/totally-not-horror/Totally_Not_Horror/Saved/BP_First_PersonCharacterB154F8744F4AF9505BED1394EA8003FA.tmp' to 'C:/Users/drcza/Documents/GitHub/totally-not-horror/Totally_Not_Horror/Content/ThirdPerson/Blueprints/BP_First_PersonCharacter.uasset'
+[2024.02.27-00.55.59:085][861]LogFileHelpers: InternalPromptForCheckoutAndSave took 164 ms (total: 615 ms)
+[2024.02.27-00.55.59:157][861]LogUObjectHash: Compacting FUObjectHashTables data took   1.85ms
+[2024.02.27-00.55.59:194][861]LogUObjectHash: Compacting FUObjectHashTables data took   2.15ms
+[2024.02.27-00.55.59:229][861]LogUObjectHash: Compacting FUObjectHashTables data took   0.65ms
+[2024.02.27-00.55.59:237][861]AssetCheck: New page: Asset Save: multiple assets
+[2024.02.27-00.55.59:237][861]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/ThirdPerson/Blueprints/BP_First_PersonCharacter.BP_First_PersonCharacter
+[2024.02.27-00.55.59:237][861]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/ThirdPerson/Blueprints/BP_ThirdPersonGameMode.BP_ThirdPersonGameMode
+[2024.02.27-00.55.59:238][861]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.02.27-00.56.00:078][892]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/ThirdPerson/Blueprints/BP_First_PersonCharacter.BP_First_PersonCharacter
+[2024.02.27-00.56.00:079][892]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.02.27-00.56.00:079][892]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.02.27-00.56.45:293][786]BlueprintLog: New page: Compile BP_AI
+[2024.02.27-00.56.45:382][786]LogUObjectHash: Compacting FUObjectHashTables data took   1.81ms
+[2024.02.27-00.57.07:596][343]BlueprintLog: New page: Compile BP_AI
+[2024.02.27-00.57.07:687][343]LogUObjectHash: Compacting FUObjectHashTables data took   1.42ms
+[2024.02.27-00.58.22:908][915]LogAssetEditorSubsystem: Opening Asset editor for BlackboardData /Game/AI/BO_AI.BO_AI
+[2024.02.27-01.02.09:280][392]LogUObjectHash: Compacting FUObjectHashTables data took   2.54ms
+[2024.02.27-01.02.09:284][392]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/7/S7/D4H8OMIQNU9J1NM4S6SCJD_Auto2
+[2024.02.27-01.02.09:284][392]LogSavePackage: Moving 'C:/Users/drcza/Documents/GitHub/totally-not-horror/Totally_Not_Horror/Saved/D4H8OMIQNU9J1NM4S6SCJD_Auto2296B075344300B9F46FD898C9E7446CA.tmp' to 'C:/Users/drcza/Documents/GitHub/totally-not-horror/Totally_Not_Horror/Saved/Autosaves/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/7/S7/D4H8OMIQNU9J1NM4S6SCJD_Auto2.uasset'
+[2024.02.27-01.02.09:324][392]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/ThirdPerson/Maps/ThirdPersonMap' took 0.093
+[2024.02.27-01.02.09:324][392]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.093
+[2024.02.27-01.02.09:359][392]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ThirdPerson/Blueprints/BP_First_PersonCharacter] ([2] browsable assets)...
+[2024.02.27-01.02.09:409][392]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/ThirdPerson/Blueprints/BP_First_PersonCharacter.BP_First_PersonCharacter]
+[2024.02.27-01.02.09:409][392]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPerson/Blueprints/BP_First_PersonCharacter]
+[2024.02.27-01.02.09:447][392]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/ThirdPerson/Blueprints/BP_First_PersonCharacter_Auto2
+[2024.02.27-01.02.09:447][392]LogSavePackage: Moving 'C:/Users/drcza/Documents/GitHub/totally-not-horror/Totally_Not_Horror/Saved/BP_First_PersonCharacter_Auto28A5D625E482DA871F0D9E7AA07EEE6D3.tmp' to 'C:/Users/drcza/Documents/GitHub/totally-not-horror/Totally_Not_Horror/Saved/Autosaves/Game/ThirdPerson/Blueprints/BP_First_PersonCharacter_Auto2.uasset'
+[2024.02.27-01.02.09:460][392]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/AI/BP_AI] ([2] browsable assets)...
+[2024.02.27-01.02.09:503][392]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/AI/BP_AI.BP_AI]
+[2024.02.27-01.02.09:503][392]OBJ SavePackage: Finished generating thumbnails for package [/Game/AI/BP_AI]
+[2024.02.27-01.02.09:503][392]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/BP_AI" FILE="C:/Users/drcza/Documents/GitHub/totally-not-horror/Totally_Not_Horror/Saved/Autosaves/Game/AI/BP_AI_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2024.02.27-01.02.09:509][392]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/AI/BP_AI_Auto2
+[2024.02.27-01.02.09:509][392]LogSavePackage: Moving 'C:/Users/drcza/Documents/GitHub/totally-not-horror/Totally_Not_Horror/Saved/BP_AI_Auto2B350CCA14CD02FF277DE0485C5B5AA6E.tmp' to 'C:/Users/drcza/Documents/GitHub/totally-not-horror/Totally_Not_Horror/Saved/Autosaves/Game/AI/BP_AI_Auto2.uasset'
+[2024.02.27-01.02.09:531][392]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/AI/BO_AI] ([1] browsable assets)...
+[2024.02.27-01.02.09:531][392]OBJ SavePackage: Finished generating thumbnails for package [/Game/AI/BO_AI]
+[2024.02.27-01.02.09:531][392]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/BO_AI" FILE="C:/Users/drcza/Documents/GitHub/totally-not-horror/Totally_Not_Horror/Saved/Autosaves/Game/AI/BO_AI_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2024.02.27-01.02.09:533][392]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/AI/BO_AI_Auto2
+[2024.02.27-01.02.09:533][392]LogSavePackage: Moving 'C:/Users/drcza/Documents/GitHub/totally-not-horror/Totally_Not_Horror/Saved/BO_AI_Auto2B03D196D48A82C85CD19E0AED2AF84A5.tmp' to 'C:/Users/drcza/Documents/GitHub/totally-not-horror/Totally_Not_Horror/Saved/Autosaves/Game/AI/BO_AI_Auto2.uasset'
+[2024.02.27-01.02.09:535][392]LogFileHelpers: Auto-saving content packages took 0.211
+[2024.02.27-01.04.32:821][831]BlueprintLog: New page: Compile BP_AI
+[2024.02.27-01.04.32:954][831]LogUObjectHash: Compacting FUObjectHashTables data took   2.56ms
+[2024.02.27-01.04.55:313][  4]LogWorld: UWorld::CleanupWorld for World_1, bSessionEnded=true, bCleanupResources=true
+[2024.02.27-01.04.55:313][  4]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.02.27-01.04.55:378][  4]LogWorld: UWorld::CleanupWorld for World_2, bSessionEnded=true, bCleanupResources=true
+[2024.02.27-01.04.55:378][  4]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.02.27-01.04.55:532][  4]LogWorld: UWorld::CleanupWorld for World_3, bSessionEnded=true, bCleanupResources=true
+[2024.02.27-01.04.55:532][  4]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.02.27-01.08.24:056][ 73]LogAssetEditorSubsystem: Opening Asset editor for BehaviorTree /Game/AI/BT_AI.BT_AI
+[2024.02.27-01.09.56:328][943]LogUObjectHash: Compacting FUObjectHashTables data took   2.14ms
+[2024.02.27-01.09.56:380][943]LogUObjectHash: Compacting FUObjectHashTables data took   2.30ms
+[2024.02.27-01.09.57:137][943]LogSlate: Window 'Save Content' being destroyed
+[2024.02.27-01.09.57:156][943]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.02.27-01.09.57:252][943]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/BO_AI" FILE="C:/Users/drcza/Documents/GitHub/totally-not-horror/Totally_Not_Horror/Content/AI/BO_AI.uasset" SILENT=true
+[2024.02.27-01.09.57:254][943]LogSavePackage: Moving output files for package: /Game/AI/BO_AI
+[2024.02.27-01.09.57:256][943]LogSavePackage: Moving 'C:/Users/drcza/Documents/GitHub/totally-not-horror/Totally_Not_Horror/Saved/BO_AI9E82E60647EB9ADBCEA982BFB9DDB138.tmp' to 'C:/Users/drcza/Documents/GitHub/totally-not-horror/Totally_Not_Horror/Content/AI/BO_AI.uasset'
+[2024.02.27-01.09.57:334][943]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/BP_AI" FILE="C:/Users/drcza/Documents/GitHub/totally-not-horror/Totally_Not_Horror/Content/AI/BP_AI.uasset" SILENT=true
+[2024.02.27-01.09.57:339][943]LogSavePackage: Moving output files for package: /Game/AI/BP_AI
+[2024.02.27-01.09.57:356][943]LogSavePackage: Moving 'C:/Users/drcza/Documents/GitHub/totally-not-horror/Totally_Not_Horror/Saved/BP_AI0EA1B52E43587CBAC966C88C8906C647.tmp' to 'C:/Users/drcza/Documents/GitHub/totally-not-horror/Totally_Not_Horror/Content/AI/BP_AI.uasset'
+[2024.02.27-01.09.57:363][943]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/7/S7/D4H8OMIQNU9J1NM4S6SCJD
+[2024.02.27-01.09.57:394][943]LogSavePackage: Moving 'C:/Users/drcza/Documents/GitHub/totally-not-horror/Totally_Not_Horror/Saved/D4H8OMIQNU9J1NM4S6SCJD6F503E894E8040EF880216ACF8324820.tmp' to 'C:/Users/drcza/Documents/GitHub/totally-not-horror/Totally_Not_Horror/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/7/S7/D4H8OMIQNU9J1NM4S6SCJD.uasset'
+[2024.02.27-01.09.57:419][943]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Blueprints/BP_First_PersonCharacter
+[2024.02.27-01.09.57:432][943]LogSavePackage: Moving 'C:/Users/drcza/Documents/GitHub/totally-not-horror/Totally_Not_Horror/Saved/BP_First_PersonCharacter031BA35149340313FC50FC881EE2CC01.tmp' to 'C:/Users/drcza/Documents/GitHub/totally-not-horror/Totally_Not_Horror/Content/ThirdPerson/Blueprints/BP_First_PersonCharacter.uasset'
+[2024.02.27-01.09.57:470][943]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/BT_AI" FILE="C:/Users/drcza/Documents/GitHub/totally-not-horror/Totally_Not_Horror/Content/AI/BT_AI.uasset" SILENT=true
+[2024.02.27-01.09.57:476][943]LogSavePackage: Moving output files for package: /Game/AI/BT_AI
+[2024.02.27-01.09.57:477][943]LogSavePackage: Moving 'C:/Users/drcza/Documents/GitHub/totally-not-horror/Totally_Not_Horror/Saved/BT_AIF8FFBA454D9CEE7F0ECD2F97B8EDA5A3.tmp' to 'C:/Users/drcza/Documents/GitHub/totally-not-horror/Totally_Not_Horror/Content/AI/BT_AI.uasset'
+[2024.02.27-01.09.57:489][943]LogFileHelpers: InternalPromptForCheckoutAndSave took 334 ms (total: 949 ms)
+[2024.02.27-01.09.57:506][943]AssetCheck: New page: Asset Save: multiple assets
+[2024.02.27-01.09.57:506][943]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/ThirdPerson/Blueprints/BP_First_PersonCharacter.BP_First_PersonCharacter
+[2024.02.27-01.09.57:506][943]LogContentValidation: Display: Validating /Script/AIModule.BlackboardData /Game/AI/BO_AI.BO_AI
+[2024.02.27-01.09.57:506][943]LogContentValidation: Display: Validating /Script/AIModule.BehaviorTree /Game/AI/BT_AI.BT_AI
+[2024.02.27-01.09.57:506][943]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/AI/BP_AI.BP_AI
+[2024.02.27-01.09.57:506][943]LogContentValidation: Display: Validating /Game/AI/BP_AI.BP_AI_C /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.BP_AI_C_UAID_3C7C3F5AFC98DADC01_1644988847
+[2024.02.27-01.10.47:681][305]LogSlate: Window 'Save Asset As' being destroyed
+[2024.02.27-01.10.47:705][305]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/AI/Tasks/BT_Task_Chase_Player.BT_Task_Chase_Player
+[2024.02.27-01.10.47:718][305]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.02.27-01.10.47:724][305]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.02.27-01.10.47:849][305]LogPackageName: SearchForPackageOnDisk took   0.000s, but failed to resolve /Game/AI/Tasks/BT_Task_Chase_Player.
+[2024.02.27-01.12.25:326][ 71]BlueprintLog: New page: Compile BT_Task_Chase_Player
+[2024.02.27-01.12.25:402][ 71]LogUObjectHash: Compacting FUObjectHashTables data took   2.37ms
+[2024.02.27-01.13.22:150][114]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.02.27-01.13.22:164][114]LogContentBundle: [ThirdPersonMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2024.02.27-01.13.22:176][114]LogWorldPartition: Display: GenerateStreaming started...
+[2024.02.27-01.13.22:176][114]LogWorldPartition: Display: GetPartitionedActors started...
+[2024.02.27-01.13.22:176][114]LogWorldPartition: Display: GetPartitionedActors took 646 us (total: 1 ms)
+[2024.02.27-01.13.22:177][114]LogWorldPartition: Display: GenerateStreaming took 1 ms (total: 3 ms)
+[2024.02.27-01.13.22:189][114]BlueprintLog: New page: Pre-Play auto-recompile
+[2024.02.27-01.13.22:192][114]LogPlayLevel: [PlayLevel] Compiling BP_First_PersonCharacter before play...
+[2024.02.27-01.13.22:609][114]LogUObjectHash: Compacting FUObjectHashTables data took   1.68ms
+[2024.02.27-01.13.22:610][114]LogPlayLevel: PlayLevel: Blueprint regeneration took 422 ms (1 blueprints)
+[2024.02.27-01.13.22:617][114]PIE: New page: PIE session: ThirdPersonMap (27 Feb 2024, 03:13:22)
+[2024.02.27-01.13.22:619][114]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2024.02.27-01.13.22:655][114]LogPlayLevel: PIE: StaticDuplicateObject took: (0.035563s)
+[2024.02.27-01.13.22:655][114]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap to /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap (0.035751s)
+[2024.02.27-01.13.22:657][114]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.02.27-01.13.22:658][114]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.02.27-01.13.22:660][114]LogAIModule: Creating AISystem for world ThirdPersonMap
+[2024.02.27-01.13.22:664][114]LogWorldPartition: ULevel::OnLevelLoaded(ThirdPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, bIsValidLevelInstance=0, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2024.02.27-01.13.22:664][114]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.02.27-01.13.22:664][114]LogWorldPartition: UWorldPartition::Initialize(Asset=ThirdPersonMap, IsEditor=0, bPIEWorldTravel=0 IsGame=0, IsCooking=0)
+[2024.02.27-01.13.22:666][114]LogContentBundle: [ThirdPersonMap(Standalone)] Creating new contrainer.
+[2024.02.27-01.13.22:670][114]LogWorldPartition: Display: WorldPartition initialize took 5 ms (total: 1.06 sec)
+[2024.02.27-01.13.22:670][114]LogPlayLevel: PIE: World Init took: (0.014763s)
+[2024.02.27-01.13.22:714][114]LogUObjectHash: Compacting FUObjectHashTables data took   1.33ms
+[2024.02.27-01.13.22:719][114]LogAudio: Display: Creating Audio Device:                 Id: 5, Scope: Unique, Realtime: True
+[2024.02.27-01.13.22:722][114]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.02.27-01.13.22:722][114]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.02.27-01.13.22:722][114]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.02.27-01.13.22:722][114]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.02.27-01.13.22:722][114]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.02.27-01.13.22:722][114]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2024.02.27-01.13.22:722][114]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.02.27-01.13.22:722][114]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.02.27-01.13.22:726][114]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.02.27-01.13.22:726][114]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.02.27-01.13.22:726][114]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.02.27-01.13.22:737][114]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.02.27-01.13.22:980][114]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Realtek(R) Audio)
+[2024.02.27-01.13.22:985][114]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.02.27-01.13.22:985][114]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.02.27-01.13.22:986][114]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.02.27-01.13.22:993][114]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=5
+[2024.02.27-01.13.22:993][114]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=5
+[2024.02.27-01.13.22:995][114]LogInit: FAudioDevice initialized with ID 5.
+[2024.02.27-01.13.22:995][114]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=5
+[2024.02.27-01.13.22:995][114]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=5
+[2024.02.27-01.13.22:995][114]LogAudio: Display: Audio Device (ID: 5) registered with world 'ThirdPersonMap'.
+[2024.02.27-01.13.22:996][114]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 5
+[2024.02.27-01.13.23:017][114]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2024.02.27-01.13.23:032][114]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap up for play (max tick rate 60) at 2024.02.27-02.13.23
+[2024.02.27-01.13.23:051][114]LogWorld: Bringing up level for play took: 0.033261
+[2024.02.27-01.13.23:068][114]LogOnline: OSS: Created online subsystem instance for: :Context_25
+[2024.02.27-01.13.23:116][114]PIE: Server logged in
+[2024.02.27-01.13.23:117][114]PIE: Play in editor total start time 0.956 seconds.
+[2024.02.27-01.13.31:217][330]LogDerivedDataCache: C:/Users/drcza/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.436 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 614 files in 1066 folders with total size 41 MiB.
+[2024.02.27-01.14.01:495][491]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.27-01.14.01:495][491]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2024.02.27-01.14.01:515][491]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2024.02.27-01.14.01:526][491]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.02.27-01.14.01:528][491]LogContentBundle: [ThirdPersonMap(Standalone)] Deleting container.
+[2024.02.27-01.14.01:841][491]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.02.27-01.14.01:866][491]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.02.27-01.14.02:024][491]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.27-01.14.02:026][491]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 5
+[2024.02.27-01.14.02:027][491]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=5
+[2024.02.27-01.14.02:031][491]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=5
+[2024.02.27-01.14.02:082][491]LogUObjectHash: Compacting FUObjectHashTables data took   2.93ms
+[2024.02.27-01.14.02:201][492]LogPlayLevel: Display: Destroying online subsystem :Context_25
+[2024.02.27-01.14.03:889][506]LogUObjectHash: Compacting FUObjectHashTables data took   2.31ms
+[2024.02.27-01.14.05:160][506]LogSlate: Window 'Save Content' being destroyed
+[2024.02.27-01.14.05:196][506]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.02.27-01.14.05:282][506]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/BT_AI" FILE="C:/Users/drcza/Documents/GitHub/totally-not-horror/Totally_Not_Horror/Content/AI/BT_AI.uasset" SILENT=true
+[2024.02.27-01.14.05:304][506]LogSavePackage: Moving output files for package: /Game/AI/BT_AI
+[2024.02.27-01.14.05:306][506]LogSavePackage: Moving 'C:/Users/drcza/Documents/GitHub/totally-not-horror/Totally_Not_Horror/Saved/BT_AI843D82504A31D4D245CA00BCC7D7AAEB.tmp' to 'C:/Users/drcza/Documents/GitHub/totally-not-horror/Totally_Not_Horror/Content/AI/BT_AI.uasset'
+[2024.02.27-01.14.05:316][506]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/Tasks/BT_Task_Chase_Player" FILE="C:/Users/drcza/Documents/GitHub/totally-not-horror/Totally_Not_Horror/Content/AI/Tasks/BT_Task_Chase_Player.uasset" SILENT=true
+[2024.02.27-01.14.05:342][506]LogSavePackage: Moving output files for package: /Game/AI/Tasks/BT_Task_Chase_Player
+[2024.02.27-01.14.05:342][506]LogSavePackage: Moving 'C:/Users/drcza/Documents/GitHub/totally-not-horror/Totally_Not_Horror/Saved/BT_Task_Chase_PlayerA611439C49F0EC175707F6B9E01B5131.tmp' to 'C:/Users/drcza/Documents/GitHub/totally-not-horror/Totally_Not_Horror/Content/AI/Tasks/BT_Task_Chase_Player.uasset'
+[2024.02.27-01.14.05:347][506]LogPackageName: SearchForPackageOnDisk took   0.000s to resolve /Game/AI/Tasks/BT_Task_Chase_Player.
+[2024.02.27-01.14.05:387][506]LogFileHelpers: InternalPromptForCheckoutAndSave took 191 ms (total: 1.14 sec)
+[2024.02.27-01.14.05:558][506]AssetCheck: New page: Asset Save: multiple assets
+[2024.02.27-01.14.05:558][506]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/AI/Tasks/BT_Task_Chase_Player.BT_Task_Chase_Player
+[2024.02.27-01.14.05:558][506]LogContentValidation: Display: Validating /Script/AIModule.BehaviorTree /Game/AI/BT_AI.BT_AI
